@@ -1,0 +1,45 @@
+h1{
+    border: 1px solid black;
+    background-color: aquamarine;
+    color:hotpink;
+    font-size: 50px;
+    text-align: center;
+}
+section{
+    border:1px solid black;
+    background-color: chocolate;
+    height: 700px;
+    div{
+        display: inline-block;
+        width: 20%;
+        height: 200px;
+        border:1px solid black;
+        background-color: rgb(210, 30, 159);
+        margin: 5%;
+        div:first-child{
+            display: block;
+            background-color: rgb(60, 210, 30);
+            width: 90%;
+            height: 50px;
+            border:1px solid black;
+            margin: 10px;
+                h2{
+                color: crimson;
+                }
+                h2:hover{
+                    color: darkblue;
+                }
+        }
+        div:nth-child(2){
+            display: block;
+            background-color: rgb(30, 132, 210);
+            width: 90%;
+            height: 50px;
+            border:1px solid black;
+            margin: 10px;
+        }
+    }
+    
+       
+           
+}

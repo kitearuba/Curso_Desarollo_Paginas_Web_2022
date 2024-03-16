@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vw;
+    row-gap: 4vw;
+    
+    input{
+        width: 25%;
+        height: 50px;
+        font-size: 2vw;
+        text-align: center;
+    }
+
+    button{
+        width: 25%;
+        height: 50px;
+        font-size: 2vw;
+    }
+
+    #resultado{
+        width: 25%;
+        height: 200px;
+        border: 1px solid black;
+    }
+}

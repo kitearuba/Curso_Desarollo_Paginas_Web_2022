@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  a{
+    color:rgb(10, 0, 0);
+    text-decoration: none;
+  }
+  
+  body{
+    width: 100%;
+    height: 100vh;
+    font-family:Georgia;
+    background:
+      repeating-linear-gradient(
+        to top left,
+        beige 0,
+        beige 2em,
+        moccasin 2em,
+        moccasin 4em,
+        wheat 4em,
+        wheat 6em
+      ),
+      repeating-linear-gradient(
+        to left,
+        white 0,
+        white 2em,
+        wheat 2em,
+        wheat 4em,
+        beige 4em,
+        beige 6em
+      ), white;
+  
+    background-blend-mode: multiply;
+    background-repeat: no-repeat ;
+    background-size: cover;
+  
+    section{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 90%;
+      margin-left: 5%;
+  
+        div{
+          display: inline-flex;
+          justify-content: center;
+          align-items: center;
+          width: 80%;
+          
+        }
+        >div:first-child{
+          width: 45%;
+          font-size: 3vw;
+          font-weight: bold;
+          border-radius: 20px;
+          border: .1px solid black;
+          padding:1vh 0 1vh 0; 
+          
+          margin-top: 5vw;
+  
+  
+          background:
+            linear-gradient(
+              limegreen,
+              transparent
+            ),
+            linear-gradient(
+              90deg,
+              skyblue,
+              transparent
+            ),
+            linear-gradient(
+              -90deg,
+              coral,
+              transparent
+            );
+            background-blend-mode: screen;
+          
+        }
+        >div:nth-child(2){
+          justify-content: space-around;
+          align-items: center;
+          box-sizing: border-box;
+          
+          margin-top: 5vw;
+            
+          
+          >div{
+            width:30%;
+            font-size: 2.5vw;
+            border: .5px solid black;  
+            border-radius: 20px;
+            padding:1vh 0 1vh 0; 
+            
+            background:
+              linear-gradient(
+                limegreen,
+                transparent
+              ),
+              linear-gradient(
+                90deg,
+                skyblue,
+                transparent
+              ),
+              linear-gradient(
+                -90deg,
+                coral,
+                transparent
+              );
+              
+            background-blend-mode: screen;
+          }
+          >div:hover{
+            background-color: rgba(211, 4, 4, 0.4);
+            background-image: none;
+            font-weight: bold;
+          }
+        }
+        >div:nth-child(3){
+          width: 45%;
+          font-size: 3vw;
+          
+          margin-bottom: 5vh;
+          font-weight: bold;
+          border-radius: 20px;
+          border: .1px solid black;
+          background-color: rgba(0, 0, 0, .5);
+          padding:1vh 0 1vh 0; 
+          
+          margin-top: 5vw;
+        }
+  
+  
+    }
+  }
+  
+  

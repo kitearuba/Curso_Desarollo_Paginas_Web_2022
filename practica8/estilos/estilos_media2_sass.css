@@ -1,0 +1,1655 @@
+img {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* *************************************************************************
+Header que incluye el titulo y contenido en resumen.  ************************************************************************* */
+h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* centrar horizontalmente */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* centrar vertical */
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+}
+
+h1 #titulo {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  /* centrar horizontalmente */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 3px dashed #57b2e2;
+  background-color: white;
+  width: 37%;
+  height: 60px;
+  font-family: 'Abril Fatface', cursive;
+  font-weight: bold;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1 #titulo div {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  /* centrar horizontalmente */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1 #contenido {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  /* centrar horizontalmente */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 3px dashed #57b2e2;
+  background-color: white;
+  width: 60.8%;
+  height: 54px;
+}
+
+h1 #contenido div {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  /* centrar horizontalmente */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 65%;
+  margin-left: 33%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1 #contenido div div {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  /* centrar horizontalmente */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 29%;
+  margin-left: 1.5%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: .8vw;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: blue;
+}
+
+/* *************************************************************************
+Esta area es para el contenido  ************************************************************************* */
+section {
+  background-color: #aaaaaa;
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  margin-top: 1%;
+  vertical-align: top;
+}
+
+section #boxmain1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* centrar horizontalmente */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* centrar vertical */
+}
+
+section #boxmain1 #box1 {
+  display: inline-block;
+  border: 3px dashed #57b2e2;
+  width: 32%;
+  height: auto;
+  margin-top: 5vw;
+}
+
+section #boxmain1 #box1 div {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* centrar horizontalmente */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* centrar vertical */
+  width: 95%;
+  height: auto;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  margin-left: 2%;
+  font-size: 2vw;
+}
+
+section #boxmain1 #box1 div div {
+  display: inline-block;
+  width: 45%;
+  height: 15vw;
+  border: 5px solid black;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 1vw;
+}
+
+section #boxmain1 #box1 div:first-child {
+  font-size: 1vw;
+  font-weight: bolder;
+}
+
+section #boxmain1 #box1 div:nth-child(2) {
+  font-size: .7vw;
+  margin-top: 5px;
+  vertical-align: top;
+}
+
+section #boxmain1 #box1 div:nth-child(4) {
+  color: blue;
+  font-weight: normal;
+  font-size: .8vw;
+}
+
+section #boxmain2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* centrar horizontalmente */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* centrar vertical */
+  vertical-align: top;
+}
+
+section #boxmain2 #box2a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* centrar horizontalmente */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* centrar vertical */
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  vertical-align: top;
+  border: 3px dashed #57b2e2;
+  width: 48.8%;
+  height: auto;
+  margin-top: 1vw;
+  margin-bottom: 3vw;
+}
+
+section #boxmain2 #box2a #box2a-1 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* centrar horizontalmente */
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  /* centrar vertical */
+  width: 95%;
+  height: auto;
+  font-size: .8vw;
+}
+
+section #boxmain2 #box2a #box2a-1 fieldset {
+  margin-top: 5%;
+  border: none;
+  font-size: 1vw;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* Customize the label (the container) */
+  /* Hide the browser's default radio button */
+  /* Create a custom radio button */
+  /* On mouse-over, add a grey background color */
+  /* When the radio button is checked, add a blue background */
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  /* Show the indicator (dot/circle) when checked */
+  /* Style the indicator (dot/circle) */
+}
+
+section #boxmain2 #box2a #box2a-1 fieldset input {
+  margin-bottom: 1vw;
+}
+
+section #boxmain2 #box2a #box2a-1 fieldset > input {
+  border-radius: 10px;
+  height: 4vw;
+  width: 100%;
+  margin: 0%;
+}
+
+section #boxmain2 #box2a #box2a-1 fieldset .container {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* centrar horizontalmente */
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  /* centrar vertical */
+  position: relative;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+section #boxmain2 #box2a #box2a-1 fieldset .container input {
+  position: relative;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+section #boxmain2 #box2a #box2a-1 fieldset .checkmark {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: .8vw;
+  width: .8vw;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+section #boxmain2 #box2a #box2a-1 fieldset .container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+section #boxmain2 #box2a #box2a-1 fieldset .container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+section #boxmain2 #box2a #box2a-1 fieldset .checkmark:after {
+  content: "";
+  position: relative;
+  display: none;
+}
+
+section #boxmain2 #box2a #box2a-1 fieldset .container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+section #boxmain2 #box2a #box2a-1 fieldset .container .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: auto;
+  border-radius: 50%;
+  background: white;
+}
+
+section #boxmain2 #box2a #box2a-1 fieldset > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* centrar horizontalmente */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* centrar vertical */
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border: 1px solid #726f6f;
+  margin-bottom: 1vw;
+}
+
+section #boxmain2 #box2a #box2a-1 fieldset > div div:first-child {
+  display: inline-block;
+  width: 80%;
+  text-align: center;
+  margin-bottom: .5vw;
+}
+
+section #boxmain2 #box2a div:first-child {
+  font-size: 1vw;
+  margin-top: .5vw;
+}
+
+section #boxmain2 #box2b {
+  display: inline-block;
+  border: 3px dashed #57b2e2;
+  width: 48.8%;
+  height: auto;
+  margin-top: 1vw;
+  margin-bottom: 3vw;
+  margin-left: 1%;
+  padding-bottom: 10.7vw;
+}
+
+section #boxmain2 #box2b div {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  /* centrar horizontalmente */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* centrar vertical */
+  width: 95%;
+  height: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: .8vw;
+  vertical-align: top;
+  margin-bottom: 5px;
+  margin-left: 2%;
+}
+
+section #boxmain2 #box2b span {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  /* centrar horizontalmente */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* centrar vertical */
+  border: 1px solid #eeeeee;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 2.5vw;
+  font-size: 1vw;
+}
+
+section #boxmain2 #box2b span:first-child {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+section #boxmain2 #box2b span:nth-child(3) {
+  -webkit-box-flex: 1.5;
+      -ms-flex: 1.5;
+          flex: 1.5;
+}
+
+section #boxmain2 #box2b div:nth-child(2) {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  background-color: green;
+}
+
+section #boxmain2 #box2b div:nth-child(3) {
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+section #boxmain2 #box2b div:nth-child(4) {
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+/* ******************************************************************* Footer con informacion del Autor.  ******************************************************************** */
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* centrar horizontalmente */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* centrar vertical */
+  background-color: white;
+  border: 3px dashed #57b2e2;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  margin-bottom: 7%;
+}
+
+footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* centrar horizontalmente */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* centrar vertical */
+  width: 95%;
+  height: auto;
+}
+
+footer div div {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* centrar horizontalmente */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* centrar vertical */
+  width: 40%;
+  height: auto;
+  font-size: 1.5vw;
+  font-weight: bold;
+  padding-top: .5vw;
+  padding-bottom: .5vw;
+}
+
+#enlace {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background-color: black;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 7vw;
+  height: auto;
+  border: none;
+  padding: none;
+}
+
+#enlace > div {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 30%;
+  height: 6.5vw;
+  font-size: 3vw;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+  font-weight: bold;
+  border-radius: 20px;
+  border: .1px solid black;
+  background-color: rgba(136, 131, 228, 0.5);
+}
+
+#enlace a {
+  color: #fff700;
+  text-decoration: none;
+}
+
+#enlace > div:hover {
+  background-color: rgba(211, 4, 4, 0.4);
+}
+
+#enlace > div:hover a {
+  color: #0bff33;
+}
+
+@media screen and (max-width: 900px) {
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  /* *************************************************************************
+    Header que incluye el titulo y contenido en resumen.  ************************************************************************* */
+  h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    /* centrar horizontalmente */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    /* centrar vertical */
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+  }
+  h1 #titulo {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    /* centrar horizontalmente */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border: none;
+    background-color: white;
+    width: 37%;
+    height: 60px;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: bold;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  h1 #titulo div {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    /* centrar horizontalmente */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  h1 #contenido {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    /* centrar horizontalmente */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border: none;
+    background-color: white;
+    width: 60.8%;
+    height: 54px;
+  }
+  h1 #contenido div {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    /* centrar horizontalmente */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 95%;
+    margin-left: 4%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  h1 #contenido div div {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    /* centrar horizontalmente */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 33%;
+    margin-left: 1.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    color: blue;
+  }
+  /* *************************************************************************
+    Esta area es para el contenido  ************************************************************************* */
+  section {
+    background-color: #aaaaaa;
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 1%;
+    vertical-align: top;
+  }
+  section #boxmain1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    /* centrar horizontalmente */
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    /* centrar vertical */
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  section #boxmain1 #box1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    border: none;
+    width: 40%;
+    height: auto;
+    margin-top: 4vw;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  section #boxmain1 #box1 div {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    /* centrar horizontalmente */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    /* centrar vertical */
+    width: 95%;
+    height: auto;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    margin-left: 2%;
+    font-size: 2vw;
+  }
+  section #boxmain1 #box1 div div {
+    display: inline-block;
+    width: 45%;
+    height: 19vw;
+    border: 5px solid black;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-size: 1vw;
+  }
+  section #boxmain1 #box1 div:first-child {
+    font-size: 1vw;
+    font-weight: bolder;
+  }
+  section #boxmain1 #box1 div:nth-child(2) {
+    font-size: .7vw;
+    margin-top: 5px;
+    vertical-align: top;
+  }
+  section #boxmain1 #box1 div:nth-child(4) {
+    color: blue;
+    font-weight: normal;
+    font-size: .8vw;
+  }
+  section #boxmain2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    /* centrar horizontalmente */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    /* centrar vertical */
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    vertical-align: top;
+  }
+  section #boxmain2 #box2a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    /* centrar horizontalmente */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    /* centrar vertical */
+    border: none;
+    width: 85%;
+    height: auto;
+    margin-top: 1vw;
+    margin-bottom: 3vw;
+  }
+  section #boxmain2 #box2a #box2a-1 {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    /* centrar horizontalmente */
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    /* centrar vertical */
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 95%;
+    height: auto;
+    font-size: .8vw;
+  }
+  section #boxmain2 #box2a #box2a-1 fieldset {
+    margin-top: 5%;
+    border: none;
+    font-size: 1vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* Customize the label (the container) */
+    /* Hide the browser's default radio button */
+    /* Create a custom radio button */
+    /* On mouse-over, add a grey background color */
+    /* When the radio button is checked, add a blue background */
+    /* Create the indicator (the dot/circle - hidden when not checked) */
+    /* Show the indicator (dot/circle) when checked */
+    /* Style the indicator (dot/circle) */
+  }
+  section #boxmain2 #box2a #box2a-1 fieldset input {
+    margin-bottom: 1vw;
+  }
+  section #boxmain2 #box2a #box2a-1 fieldset > input {
+    border-radius: 10px;
+    height: 4vw;
+    width: 100%;
+    margin: 0%;
+  }
+  section #boxmain2 #box2a #box2a-1 fieldset .container {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    /* centrar horizontalmente */
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    /* centrar vertical */
+    position: relative;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  section #boxmain2 #box2a #box2a-1 fieldset .container input {
+    position: relative;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  section #boxmain2 #box2a #box2a-1 fieldset .checkmark {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: .8vw;
+    width: .8vw;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  section #boxmain2 #box2a #box2a-1 fieldset .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  section #boxmain2 #box2a #box2a-1 fieldset .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  section #boxmain2 #box2a #box2a-1 fieldset .checkmark:after {
+    content: "";
+    position: relative;
+    display: none;
+  }
+  section #boxmain2 #box2a #box2a-1 fieldset .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  section #boxmain2 #box2a #box2a-1 fieldset .container .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: auto;
+    border-radius: 50%;
+    background: white;
+  }
+  section #boxmain2 #box2a #box2a-1 fieldset > div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    /* centrar horizontalmente */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    /* centrar vertical */
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    border: 1px solid #726f6f;
+    margin-bottom: 1vw;
+    padding-bottom: .7vw;
+  }
+  section #boxmain2 #box2a #box2a-1 fieldset > div div:first-child {
+    display: inline-block;
+    width: 80%;
+    text-align: center;
+  }
+  section #boxmain2 #box2a div:first-child {
+    font-size: 1vw;
+    margin-top: .5vw;
+    margin-bottom: .5vw;
+  }
+  section #boxmain2 #box2b {
+    display: inline-block;
+    border: none;
+    width: 48.8%;
+    height: auto;
+    margin-top: 1vw;
+    margin-bottom: 3vw;
+    margin-left: 1%;
+    padding-bottom: 10.7vw;
+  }
+  section #boxmain2 #box2b div {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    /* centrar horizontalmente */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    /* centrar vertical */
+    width: 95%;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8vw;
+    vertical-align: top;
+    margin-bottom: 5px;
+    margin-left: 2%;
+  }
+  section #boxmain2 #box2b span {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    /* centrar horizontalmente */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    /* centrar vertical */
+    border: 1px solid #eeeeee;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    height: 2.5vw;
+    font-size: 1vw;
+  }
+  section #boxmain2 #box2b span:first-child {
+    -webkit-box-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
+  }
+  section #boxmain2 #box2b span:nth-child(3) {
+    -webkit-box-flex: 1.5;
+        -ms-flex: 1.5;
+            flex: 1.5;
+  }
+  section #boxmain2 #box2b div:nth-child(2) {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background-color: green;
+  }
+  section #boxmain2 #box2b div:nth-child(3) {
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  section #boxmain2 #box2b div:nth-child(4) {
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  /* ******************************************************************* Footer con informacion del Autor.  ******************************************************************** */
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    /* centrar horizontalmente */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    /* centrar vertical */
+    background-color: white;
+    border: none;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-bottom: 7%;
+  }
+  footer div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    /* centrar horizontalmente */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    /* centrar vertical */
+    width: 95%;
+    height: auto;
+  }
+  footer div div {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    /* centrar horizontalmente */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    /* centrar vertical */
+    width: 40%;
+    height: auto;
+    font-size: 1.5vw;
+    font-weight: bold;
+    padding-top: .5vw;
+    padding-bottom: .5vw;
+  }
+  #enlace {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    background-color: black;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 7vw;
+    height: auto;
+    border: none;
+    padding: none;
+  }
+  #enlace > div {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    width: 30%;
+    height: 6.5vw;
+    font-size: 3vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    font-weight: bold;
+    border-radius: 20px;
+    border: .1px solid black;
+    background-color: rgba(136, 131, 228, 0.5);
+  }
+  #enlace a {
+    color: #fff700;
+    text-decoration: none;
+  }
+  #enlace > div:hover {
+    background-color: rgba(211, 4, 4, 0.4);
+  }
+  #enlace > div:hover a {
+    color: #0bff33;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  /* *************************************************************************
+    Header que incluye el titulo y contenido en resumen.  ************************************************************************* */
+  h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    /* centrar horizontalmente */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    /* centrar vertical */
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+  }
+  h1 #titulo {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border: none;
+    background-color: white;
+    width: 44%;
+    height: auto;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 7vw;
+    font-weight: bold;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  h1 #titulo div {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    /* centrar horizontalmente */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  h1 #contenido {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    /* centrar horizontalmente */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border: none;
+    background-color: white;
+    width: 52%;
+    height: auto;
+  }
+  h1 #contenido div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    /* centrar horizontalmente */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 95%;
+    margin-left: 4%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  h1 #contenido div div {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    /* centrar horizontalmente */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 80%;
+    margin-left: 1.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5vw;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    color: blue;
+  }
+  /* *************************************************************************
+    Esta area es para el contenido  ************************************************************************* */
+  section {
+    background-color: #aaaaaa;
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 1%;
+    vertical-align: top;
+  }
+  section #boxmain1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    /* centrar horizontalmente */
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    /* centrar vertical */
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  section #boxmain1 #box1 {
+    display: block;
+    border: none;
+    width: 70%;
+    height: auto;
+    margin-top: 4vw;
+    margin-left: 14%;
+    margin-right: 5%;
+  }
+  section #boxmain1 #box1 div {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    /* centrar horizontalmente */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    /* centrar vertical */
+    -ms-flex-line-pack: center;
+        align-content: center;
+    width: 95%;
+    height: auto;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    margin-left: 2%;
+    font-size: 3vw;
+  }
+  section #boxmain1 #box1 div div {
+    display: inline-block;
+    width: 45%;
+    height: 34vw;
+    border: 5px solid black;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-size: 1vw;
+  }
+  section #boxmain1 #box1 div:first-child {
+    font-size: 3vw;
+    font-weight: bolder;
+    margin-bottom: 7px;
+  }
+  section #boxmain1 #box1 div:nth-child(2) {
+    font-size: 2vw;
+    margin-top: 5px;
+    vertical-align: top;
+  }
+  section #boxmain1 #box1 div:nth-child(4) {
+    color: blue;
+    font-weight: normal;
+    font-size: 2.5vw;
+  }
+  section #boxmain2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    /* centrar horizontalmente */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    /* centrar vertical */
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    vertical-align: top;
+  }
+  section #boxmain2 #box2a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    /* centrar horizontalmente */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    /* centrar vertical */
+    border: none;
+    width: 85%;
+    height: auto;
+    margin-top: 1vw;
+    margin-bottom: 3vw;
+  }
+  section #boxmain2 #box2a #box2a-1 {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    /* centrar horizontalmente */
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    /* centrar vertical */
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 95%;
+    height: auto;
+    font-size: .8vw;
+  }
+  section #boxmain2 #box2a #box2a-1 fieldset {
+    margin-top: 5%;
+    border: none;
+    font-size: 3vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* Customize the label (the container) */
+    /* Hide the browser's default radio button */
+    /* Create a custom radio button */
+    /* On mouse-over, add a grey background color */
+    /* When the radio button is checked, add a blue background */
+    /* Create the indicator (the dot/circle - hidden when not checked) */
+    /* Show the indicator (dot/circle) when checked */
+    /* Style the indicator (dot/circle) */
+  }
+  section #boxmain2 #box2a #box2a-1 fieldset input {
+    margin-bottom: 1vw;
+  }
+  section #boxmain2 #box2a #box2a-1 fieldset > input {
+    border-radius: 5px;
+    height: 4vw;
+    width: 100%;
+    margin: 0%;
+  }
+  section #boxmain2 #box2a #box2a-1 fieldset .container {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    /* centrar horizontalmente */
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    /* centrar vertical */
+    position: relative;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  section #boxmain2 #box2a #box2a-1 fieldset .container input {
+    position: relative;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  section #boxmain2 #box2a #box2a-1 fieldset .checkmark {
+    position: relative;
+    top: 0;
+    left: 1vw;
+    height: 4vw;
+    width: 4vw;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  section #boxmain2 #box2a #box2a-1 fieldset .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  section #boxmain2 #box2a #box2a-1 fieldset .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  section #boxmain2 #box2a #box2a-1 fieldset .checkmark:after {
+    content: "";
+    position: relative;
+    display: none;
+  }
+  section #boxmain2 #box2a #box2a-1 fieldset .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  section #boxmain2 #box2a #box2a-1 fieldset .container .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: auto;
+    border-radius: 50%;
+    background: white;
+  }
+  section #boxmain2 #box2a #box2a-1 fieldset > div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    /* centrar horizontalmente */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    /* centrar vertical */
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    border: 1px solid #726f6f;
+    margin-bottom: 2vw;
+    padding-bottom: .7vw;
+  }
+  section #boxmain2 #box2a #box2a-1 fieldset > div div:first-child {
+    display: inline-block;
+    width: 80%;
+    text-align: center;
+  }
+  section #boxmain2 #box2a div:first-child {
+    font-size: 3vw;
+    margin-top: .5vw;
+    margin-bottom: .5vw;
+    padding-bottom: 1vw;
+  }
+  section #boxmain2 #box2b {
+    display: inline-block;
+    border: none;
+    width: 90%;
+    height: auto;
+    margin-top: 1vw;
+    margin-bottom: 3vw;
+    margin-left: 1%;
+    padding-bottom: 10.7vw;
+  }
+  section #boxmain2 #box2b div {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    /* centrar horizontalmente */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    /* centrar vertical */
+    width: 95%;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vw;
+    vertical-align: top;
+    margin-bottom: 5px;
+    margin-left: 2%;
+  }
+  section #boxmain2 #box2b span {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    /* centrar horizontalmente */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    /* centrar vertical */
+    border: 1px solid #eeeeee;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    height: auto;
+    font-size: 3vw;
+  }
+  section #boxmain2 #box2b span:first-child {
+    -webkit-box-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
+  }
+  section #boxmain2 #box2b span:nth-child(3) {
+    -webkit-box-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
+  }
+  section #boxmain2 #box2b div:nth-child(2) {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background-color: green;
+  }
+  section #boxmain2 #box2b div:nth-child(3) {
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  section #boxmain2 #box2b div:nth-child(4) {
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  /* ******************************************************************* Footer con informacion del Autor.  ******************************************************************** */
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    /* centrar horizontalmente */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    /* centrar vertical */
+    background-color: white;
+    border: none;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-bottom: 7%;
+  }
+  footer div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    /* centrar horizontalmente */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    /* centrar vertical */
+    width: 95%;
+    height: auto;
+  }
+  footer div div {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    /* centrar horizontalmente */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    /* centrar vertical */
+    width: 60%;
+    height: auto;
+    font-size: 2.5vw;
+    font-weight: bold;
+    padding-top: .5vw;
+    padding-bottom: .5vw;
+  }
+  #enlace {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    background-color: black;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 7vw;
+    height: auto;
+    border: none;
+    padding: none;
+  }
+  #enlace > div {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    width: 30%;
+    height: 6.5vw;
+    font-size: 3vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    font-weight: bold;
+    border-radius: 20px;
+    border: .1px solid black;
+    background-color: rgba(136, 131, 228, 0.5);
+  }
+  #enlace a {
+    color: #fff700;
+    text-decoration: none;
+  }
+  #enlace > div:hover {
+    background-color: rgba(211, 4, 4, 0.4);
+  }
+  #enlace > div:hover a {
+    color: #0bff33;
+  }
+}
+/*# sourceMappingURL=estilos_media2_sass.css.map */

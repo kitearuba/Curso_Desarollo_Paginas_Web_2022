@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-image: url(/image/bizcuit.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    color: white;
+
+    h1{
+        display: inline-flex;  
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        background-color: rgba(46, 48, 47, 0.775);
+        color: rgb(255, 255, 255);
+        font-size: 4vw;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: normal;
+        margin-top:8vw ;
+        border:.5px solid black;
+        border-radius: 2vw;
+        padding: 1vw;
+    }
+    #pri{
+        background-color: rgba(127, 255, 212, 0.775);
+        color: rgb(255, 8, 0);
+        font-size: 26px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: normal;
+        margin-top:8vw ;
+        border:.5px solid black;
+        border-radius: 2vw;
+        padding: 1vw;
+    }
+    div{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(127, 255, 212, 0.775);
+        width:50vw;
+        color: rgb(56, 54, 54);
+        font-size: 3.5vw;
+        border:.5px solid black;
+        border-radius: 2vw;
+        margin-top: 2vw;
+        padding: 1vw;
+        text-align: center;
+        
+    }
+    >div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        background-color: rgba(127, 255, 212, 0.775);
+        width:50vw;
+        font-size: 3.5vw;
+        border:.5px solid black;
+        border-radius: 2vw;
+        margin-top: 2vw;
+        padding: 1vw;
+        text-align: center;
+    }
+    #seg{
+        font-style: normal;
+        height: auto;
+        color: black;
+        padding: 0vw;
+        border:0px solid black;
+    }
+    #tri{
+        background-color: blue;
+        font-weight: bold;
+        width: auto;
+        color: white;
+    }
+}

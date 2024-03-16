@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+  background-image: url(/practica11/image/pore_orange.png);
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+}
+
+body section {
+  width: 85%;
+  height: auto;
+  border: .5px solid black;
+  margin-top: 8vw;
+  background-image: url(/);
+}
+
+body section div {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: .5px solid black;
+}
+
+body section div div {
+  background-color: cornflowerblue;
+  border: .5px solid black;
+  border-radius: 2vw;
+}
+/*# sourceMappingURL=estilos_column_background.css.map */

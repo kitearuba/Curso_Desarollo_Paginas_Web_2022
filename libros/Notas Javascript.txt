@@ -1,0 +1,5 @@
+Variable es un contenedor de informacion
+
+las variables son:  Let, Var, Const.
+-Let and Var are similar do to being able to be edited.
+-Const is for constant variables

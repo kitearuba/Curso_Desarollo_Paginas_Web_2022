@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+header{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    row-gap: 1vw;
+    column-gap: 1vw;
+    width: 80%;
+    height: 100vh;
+    border: 1px solid black;
+    margin-left: 10%;
+    padding: 1vw;
+    
+
+    #encabezado{
+        background-color: aqua;
+        grid-area: 1/1/2/5;margin-bottom: 3vw;
+    }
+    #welcome{
+        background-color: rgb(255, 0, 85);
+        grid-area: 2/1/4/3;
+    }
+    #finance{
+        background-color: rgb(247, 232, 20);
+        grid-area: 2/3/3/4;
+    }
+    #business{
+        background-color: rgb(0, 8, 255);
+        grid-area: 2/4/3/5;
+    }
+    #archi{
+        background-color: rgb(61, 61, 61);
+        grid-area: 3/3/4/4;
+    }
+    #liberal{
+        background-color: rgb(154, 197, 52);
+        grid-area: 3/4/5/5;
+    }
+    #bio{
+        background-color: rgb(11, 16, 2);
+        grid-area: 4/1/5/2;
+    }
+    #arte{
+        background-color: rgb(27, 41, 0);
+        grid-area: 4/2/5/3;
+    }
+    #sport{
+        background-color: rgb(212, 131, 39);
+        grid-area: 4/3/5/4;
+    }
+}

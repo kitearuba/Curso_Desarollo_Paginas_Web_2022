@@ -1,0 +1,242 @@
+#primero{
+    border: 3px solid rgb(5, 5, 5);
+    display: inline-block;
+    background-color: rgb(248, 227, 109);
+    width: 60%;
+    height: 900;
+    margin-left: 17.5%;
+    margin-top: 40px;
+    }
+    #a{
+        border: 3px dashed rgb(243, 4, 4);
+        display: inline-block;
+        background-color: rgb(248, 227, 109);
+        width: 55%;
+        height: 304px;
+        margin-left: 3%;
+        margin-top: 20px;
+        vertical-align: top;
+    }
+        #a1{
+            border: 3px solid rgb(5, 5, 5);
+            display: inline-block;
+            background-color: rgb(255, 255, 255);
+            margin-left: 2%;
+            margin-top: 2%;
+            width: 95%;
+            height: 50px;
+        }
+        #a2{
+            border: 3px solid rgb(5, 5, 5);
+            display: inline-block;
+            background-color: rgb(255, 255, 255);
+            margin-left: 2%;
+            margin-top: 2%;
+            margin-bottom: 2%;
+            width: 95%;
+            height:158px;
+        }
+            #aa1{
+                font-style: oblique;
+                font-size: 25px; 
+                text-align: center;
+                margin-top: 9px;
+            }
+            #aa2{
+                font-style: oblique;
+                font-size: 18px; 
+                text-align: center;
+                margin-top: 9px;
+            }
+            h2{
+                font-style: normal;
+            font-size: 12px; 
+            text-align: left;
+            margin-top: 9px;
+            }
+        
+    #b{
+        border: 3px dashed rgb(226, 59, 204);
+        display: inline-block;
+        background-color: rgb(248, 227, 109);
+        width: 35%;
+        height: 304px;
+        margin-left: 3%;
+        margin-top: 20px;
+        vertical-align: bottom;
+    }
+        #b1{
+            border: 3px solid rgb(5, 5, 5);
+            display: inline-block;
+            background-color: rgb(255, 255, 255);
+            margin-left: 2%;
+            margin-top: 2%;
+            margin-right: 2%;
+            width: 95%;
+            height: 185px;
+        }
+        #b2{
+            border: 3px solid rgb(5, 5, 5);
+            display: inline-block;
+            background-color: rgb(255, 255, 255);
+            margin-left: 02%;
+            margin-top: 2%;
+            margin-bottom: 1.5%;
+            margin-right: 2%;
+            width: 95%;
+            height: 90px;
+        }
+    #c{
+        border: 3px dashed rgb(243, 4, 4);
+        display: inline-block;
+        background-color: rgb(248, 227, 109);
+        width: 94%;
+        height: auto;
+        margin-left: 3%;
+        margin-top: 20px;
+    }
+        #c1{
+            border: 3px solid rgb(0, 0, 0);
+            display: inline-block;
+            background-color: rgb(255, 255, 255);
+            width: 97%;
+            height: 50px;
+            margin-left: 1.2%;
+            margin-top: 4px;
+            margin-bottom: 4px;
+        }
+            #cc1{
+                font-style: oblique;
+                font-size: 20px; 
+                text-align: center;
+                margin-top: 9px;
+            }
+    #d{
+        border: 3px dashed rgb(151, 243, 4);
+        display: inline-block;
+        background-color: rgb(248, 227, 109);
+        width: 94%;
+        height: 135px;
+        margin-left: 3%;
+        margin-top: 20px;
+    }
+        #d1{
+            border: 3px solid rgb(0, 0, 0);
+            display: inline-block;
+            background-color: rgb(255, 255, 255);
+            width: 97%;
+            height: 120px;
+            margin-left: 1.2%;
+            margin-top: 4px;
+        }
+            #dd1{
+                border: 3px solid rgb(0, 0, 0);
+                display: inline-block;
+                background-color: rgb(255, 255, 255);
+                width: 15%;
+                height: 27px;
+                margin-left: 5%;
+                margin-top: 5px;
+                font-style: normal;
+                font-size: smaller;
+                text-align: center;
+                padding: 9px;
+                vertical-align:top;
+            }
+    #e{
+        border: 3px dashed rgb(151, 243, 4);
+        display: inline-block;
+        background-color: rgb(248, 227, 109);
+        width: 94%;
+        height: 45px;
+        margin-left: 3%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+        #e1{
+            border: 3px solid rgb(0, 0, 0);
+            display: inline-block;
+            background-color: rgb(255, 255, 255);
+            width: 97%;
+            height: 30px;
+            margin-left: 1.2%;
+            margin-top: 4px;
+        }
+    p{
+        font-style: oblique;
+        font-size: 12px; 
+        text-align: center;
+        margin-top: 9px;
+    } 
+    #span1{
+        border: 3px dashed rgb(255, 255, 255);
+        display: inline-block;
+        width: 12%;
+        height: 35px;
+        margin-left: 15%;
+        margin-top: 5px;
+    }
+    span{
+        border: 3px dashed rgb(255, 255, 255);
+        display: inline-block;
+        width: 12%;
+        height: 35px;
+        margin-left: 3%;
+        margin-top: 5px;
+    }
+
+#enlace {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    background-color: black;
+    width: 100%;
+    margin-top: 7vw;
+    height: auto;
+    border: none;
+    padding: none;
+    }
+    
+    #enlace > div {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    width: 30%;
+    height: 6.5vw;
+    font-size: 3vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    font-weight: bold;
+    border-radius: 20px;
+    border: .1px solid black;
+    background-color: rgba(136, 131, 228, 0.5);
+    }
+    
+    #enlace a {
+    color: #fff700;
+    text-decoration: none;
+    }
+    
+    #enlace > div:hover {
+    background-color: rgba(211, 4, 4, 0.4);
+    }
+    
+    #enlace > div:hover a {
+    color: #0bff33;
+    }
+    /*# sourceMappingURL=estilos.css.map */

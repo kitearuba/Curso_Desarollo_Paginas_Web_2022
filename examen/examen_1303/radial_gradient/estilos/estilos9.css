@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #464747;
+  background-image: url(/practica10/practica9/image/background.png);
+  background-repeat: repeat;
+}
+
+body > div {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+}
+
+body > div > div {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+  margin: 3vw;
+}
+
+body > div:first-child {
+  margin-top: 4vw;
+}
+
+body > div:first-child > div:first-child {
+  background-image: radial-gradient(yellow, blue, red);
+}
+
+body > div:first-child > div:nth-child(2) {
+  background-image: radial-gradient(at bottom left, yellow, red, pink, green);
+}
+
+body > div:nth-child(2) > div:first-child {
+  background-image: radial-gradient(red, black 5%, grey 90%);
+}
+
+body > div:nth-child(2) > div:nth-child(2) {
+  background-image: radial-gradient(at center left, yellow, red, pink, green 65%);
+}
+/*# sourceMappingURL=estilos9.css.map */

@@ -1,0 +1,73 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+div:first-child {
+  display: inline-block;
+  width: 15%;
+  height: 50px;
+  background-color: chartreuse;
+  border: 5px solid black;
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
+}
+
+div:nth-child(2) {
+  display: inline-block;
+  width: 15%;
+  height: 50px;
+  background-color: chartreuse;
+  border: 5px solid black;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+  -webkit-animation-name: mi_animacion;
+          animation-name: mi_animacion;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-fill-mode: forward;
+          animation-fill-mode: forward;
+}
+
+@-webkit-keyframes mi_animacion {
+  0% {
+    margin-left: 0px;
+  }
+  50% {
+    margin-top: 200px;
+  }
+  100% {
+    margin-left: 500px;
+    border-radius: 50%;
+  }
+}
+
+@keyframes mi_animacion {
+  0% {
+    margin-left: 0px;
+  }
+  50% {
+    margin-top: 200px;
+  }
+  100% {
+    margin-left: 500px;
+    border-radius: 50%;
+  }
+}
+
+div:first-child:hover {
+  width: 25%;
+  background-color: brown;
+}
+/*# sourceMappingURL=estilos.css.map */

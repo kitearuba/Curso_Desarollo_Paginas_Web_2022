@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    background-image: url(/practica11/image/545406.jpg);
+    box-sizing: border-box;
+    background-size:140%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+        >div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 80%;
+            height: auto;
+            margin-top: 10%;
+            
+
+            div{
+                font-size: 45px;
+                font-weight: bold;
+                color: red;
+            }
+            div:hover{
+                color: yellow;
+            }
+            div:first-child{
+                opacity: 1;
+            }
+            div:nth-child(2){
+                opacity: .9;
+            }
+            div:nth-child(3){
+                opacity:.8 ;
+            }
+            div:nth-child(4){
+                opacity: .7;
+            }
+            div:nth-child(5){
+                opacity:.6 ;
+            }
+            div:nth-child(6){
+                opacity:.5 ;
+            }
+            div:nth-child(7){
+                opacity: .4;
+            }
+            div:nth-child(8){
+                opacity:.3 ;
+            }
+            div:nth-child(9){
+                opacity:.2 ;
+            }
+            div:nth-child(10){
+                opacity: .1;
+            }
+        }
+}

@@ -1,0 +1,87 @@
+*{
+    margin:0;
+}
+#main{
+    background-color: rgb(232, 211, 144);
+    border: 1px black solid;
+    height: 720px;
+}
+#box{
+    display: inline-block;
+    border: 1px dashed red;
+    width: 85%;
+    height: 50;
+    margin-top: 3%;
+    margin-right: 7%;
+    margin-left: 7%;
+    cursor: pointer;
+    vertical-align: top;
+}
+#titulo1{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    margin-right:17vw;
+    margin-left:17vw;
+}
+#box1 :hover{
+    background-color: #008C99;
+    border: #008C99 2px solid;
+    color: #FFFFFF;
+}
+#box1 div{
+    float: right;
+    border:1px solid rgb(255, 204, 0);
+    margin: 3%;
+    background-color: rgb(139, 0, 109);
+}
+#box1{
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: cadetblue;
+    width: 25%;
+    height: 400px;
+    margin-top: 3%;
+    margin-left: 9%;
+    cursor: pointer;
+    vertical-align: top;
+}
+#box2 :hover{
+    border: #008C99 2px solid;
+    color: #FFFFFF;
+    font-size: larger;
+}
+#box2{
+    display:block;
+    border: 1px solid rgb(248, 142, 2);
+    background-color: rgb(49, 41, 68);
+    width: 25%;
+    height: 400px;
+    margin-top: 3%;
+    margin-left: 2%;
+    cursor: pointer;
+}
+#box3{
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: cadetblue;
+    width: 25%;
+    height: 400px;
+    margin-top: 3%;
+    margin-left: 2%;
+    cursor: pointer;
+}
+#box4{
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: cadetblue;
+    width: 85%;
+    height: 100px;
+    margin-top: 3%;
+    margin-left: 9%;
+    cursor: pointer;
+    vertical-align: top;
+}
+
+    

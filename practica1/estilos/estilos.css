@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* image {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: whitesmoke;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body header {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  margin-right: 5%;
+  text-align: center;
+  background-image: url(/practica1/image/background1.jpg);
+  background-size: cover;
+}
+
+body header div {
+  background-color: rgba(245, 245, 245, 0.45);
+  border-radius: 2vw;
+  text-align: center;
+}
+
+body header div h1 {
+  font-size: 45px;
+  color: #05044d;
+  text-align: center;
+}
+
+body header div h2 {
+  font: size 15px;
+  color: #8a0000;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+body header div h3 {
+  font-size: 17px;
+  color: black;
+  text-decoration: underline;
+}
+
+body header div h4 {
+  font-size: 14px;
+  color: #8a0000;
+}
+
+body section {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  text-align: center;
+  background-image: url(/practica1/image/background3.jpg);
+  background-size: cover;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-bottom: 2vh;
+}
+
+body section div {
+  background-color: rgba(245, 245, 245, 0.9);
+  border-radius: 10px;
+  margin-top: 01vh;
+  padding-top: 1.5vh;
+  max-width: 80%;
+}
+
+body section div > h3 {
+  font-size: 30px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+body section div img {
+  border-radius: 7px;
+  border: .5px solid black;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  max-height: 150px;
+}
+
+body footer {
+  width: 90%;
+  background-image: url(/practica1/image/background1.jpg);
+  background-size: cover;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+body #enlace {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background-color: black;
+  background-image: none;
+  width: 100%;
+  margin-top: 7vw;
+  height: auto;
+  border: none;
+  padding: none;
+}
+
+body #enlace > div {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 30%;
+  height: 6.5vw;
+  font-size: 3vw;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+  font-weight: bold;
+  border-radius: 20px;
+  border: .1px solid black;
+  background-color: rgba(136, 131, 228, 0.5);
+}
+
+body #enlace a {
+  color: #fff700;
+  text-decoration: none;
+}
+
+body #enlace > div:hover {
+  background-color: rgba(211, 4, 4, 0.4);
+}
+
+body #enlace > div:hover a {
+  color: #0bff33;
+}
+/*# sourceMappingURL=estilos.css.map */

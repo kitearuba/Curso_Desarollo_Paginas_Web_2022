@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url(/image/bizcuit.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  color: white;
+}
+
+body h1 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: auto;
+  background-color: rgba(46, 48, 47, 0.775);
+  color: white;
+  font-size: 4vw;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: normal;
+  margin-top: 8vw;
+  border: .5px solid black;
+  border-radius: 2vw;
+  padding: 1vw;
+}
+
+body #pri {
+  background-color: rgba(127, 255, 212, 0.775);
+  color: #ff0800;
+  font-size: 26px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: normal;
+  margin-top: 8vw;
+  border: .5px solid black;
+  border-radius: 2vw;
+  padding: 1vw;
+}
+
+body div {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(127, 255, 212, 0.775);
+  width: 50vw;
+  color: #383636;
+  font-size: 3.5vw;
+  border: .5px solid black;
+  border-radius: 2vw;
+  margin-top: 2vw;
+  padding: 1vw;
+  text-align: center;
+}
+
+body > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: rgba(127, 255, 212, 0.775);
+  width: 50vw;
+  font-size: 3.5vw;
+  border: .5px solid black;
+  border-radius: 2vw;
+  margin-top: 2vw;
+  padding: 1vw;
+  text-align: center;
+}
+
+body #seg {
+  font-style: normal;
+  height: auto;
+  color: black;
+  padding: 0vw;
+  border: 0px solid black;
+}
+
+body #tri {
+  background-color: blue;
+  font-weight: bold;
+  width: auto;
+  color: white;
+}
+/*# sourceMappingURL=estilos.css.map */

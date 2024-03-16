@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-image: url(/js/seccion_2/practica_14/image/choco.png);
+    background-repeat: repeat;
+    background-size: cover;
+    color: white;
+
+    h1{
+        display: inline-flex;  
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        background-color: rgba(46, 48, 47, 0.775);
+        color: rgb(255, 255, 255);
+        font-size: 5vw;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: normal;
+        margin-top:8vw ;
+        border:.5px solid black;
+        border-radius: 2vw;
+        padding: 1vw;
+    }
+
+    #iniciar{
+       display: inline-block;
+       width: 25%;
+       height: 70px;
+       font-size: 2vw;
+       background-color: deepskyblue;
+       border-radius: 5px;
+       margin-top: 2vw;
+    }
+
+    input{
+       display: inline-block;
+       width: 25%;
+       height: 70px;
+       font-size: 2vw;
+       border-radius: 5px;
+       text-align: center;
+       margin-top: 2vw;
+    }
+
+    #resultados{
+        display: inline-block;
+        width: 25%;
+        height: 300px;
+        font-size: 2.5vw;
+        border: 2px solid black;
+        box-sizing: border-box;
+        border-radius: 5px;
+        background-color: chartreuse;
+        margin-top: 2vw;
+
+    }
+}

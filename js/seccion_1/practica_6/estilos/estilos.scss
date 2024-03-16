@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url(/js/seccion_1/practica_6/image/bizcuit.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    color: white;
+
+    #pri{
+        display: inline-flex;  
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        color: blue;
+        font-size: 60px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: normal;
+        margin-top:8vw ;
+
+    }
+    p{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        color: white;
+        font-size: 5vw;
+    }
+    #sum{
+        font-weight: bold;
+    }
+}

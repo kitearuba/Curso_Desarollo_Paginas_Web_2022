@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url(/js/seccion_1/practica_3/image/bizcuit.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    color: black;
+
+    #nam{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        color: white;
+        font-size: 5vw;
+        font-weight: normal;
+        margin-top:8vw ;
+
+    }
+    p{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        color: white;
+        font-size: 5vw;
+    }
+    #cur{
+        font-style: italic;
+    }
+    #not{
+        font-weight: bold;
+    }
+}

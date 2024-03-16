@@ -1,0 +1,207 @@
+*{
+    margin:0;
+}
+#main{
+    background-color: rgb(232, 211, 144);
+    border: 1px black solid;
+    height: auto;
+}
+#box{
+    display: inline-block;
+    border: 1px dashed red;
+    width: 85%;
+    height: 50;
+    margin-top: 3%;
+    margin-right: 7%;
+    margin-left: 7%;
+    cursor: pointer;
+    vertical-align: top;
+}
+#titulo1{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    margin-right:17vw;
+    margin-left:17vw;
+}
+#box1 :hover{
+    background-color: #008C99;
+    border: #008C99 2px solid;
+    color: #FFFFFF;
+}
+#box1 div{
+    float: right;
+    border:1px solid rgb(255, 204, 0);
+    margin: 3%;
+    background-color: rgb(139, 0, 109);
+    width: 90px;
+}
+#box1{
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: cadetblue;
+    width: 25%;
+    height: 400px;
+    margin-top: 3%;
+    margin-left: 9%;
+    cursor: pointer;
+    vertical-align: top;
+}
+#box2 :hover{
+    border: #008C99 2px solid;
+    color: #FFFFFF;
+    width:100%;    
+}
+#box2 div{
+    display: block;
+    border:1px solid rgb(124, 124, 121);
+    margin: 3%;
+    background-color: rgb(42, 0, 139);
+   
+}
+#box2{
+    display: inline-block;
+    border: 1px solid rgb(248, 142, 2);
+    background-color: rgb(114, 95, 160);
+    width: 25%;
+    height: 400px;
+    margin-top: 3%;
+    margin-left: 2%;
+    cursor: pointer;
+}
+#box3 :hover{
+    color: #ffffff;
+    font-weight: bolder;
+}
+#box3 div{
+    display: inline-block;
+    border:1px solid rgb(124, 124, 121);
+    margin: 3%; 
+    width: 80px;
+    height: 40px;
+    background-color: rgb(42, 0, 139);
+}
+#box3{
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: cadetblue;
+    width: 25%;
+    height: 400px;
+    margin-top: 3%;
+    margin-left: 2%;
+    cursor: pointer;
+    vertical-align: top;
+}
+#box4 :hover{
+    color: #ffffff;
+    background-color:darkred;
+}
+#box4 div{
+    display: inline-block;
+    border:1px solid rgb(124, 124, 121);
+    margin: 1%; 
+    width: 151px;
+    height: 41px;
+    background-color: rgb(42, 0, 139);
+    position: absolute;
+}
+#box4{
+    position: relative;
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: cadetblue;
+    width: 85%;
+    height: 130px;
+    margin-top: 3%;
+    margin-left: 7%;
+    cursor: pointer;
+}
+#box4_1{
+    position: absolute;
+    left: 10px;
+    top: 65px;
+}
+#box4_2{
+    position: absolute;
+    left: 490px;
+    top: 65px;
+}
+#box4_3{
+    position: absolute;
+    left: 500px;
+    top:5px;
+}
+#pub :img{
+    width: 100%;
+    height: 100%;
+}
+#pub{
+    border:1px solid rgb(0, 0, 0);
+    width: 200px;
+    height: 50px;
+    background-color: rgb(255, 247, 0);
+    position: fixed; 
+    left: 560px;
+    top: 500px;
+}
+#pub img{
+    width: 100%;
+    height: 100%;
+}
+
+#enlace {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    background-color: black;
+    width: 100%;
+    margin-top: 7vw;
+    height: auto;
+    border: none;
+    padding: none;
+  }
+  
+  #enlace > div {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    width: 30%;
+    height: 6.5vw;
+    font-size: 3vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    font-weight: bold;
+    border-radius: 20px;
+    border: .1px solid black;
+    background-color: rgba(136, 131, 228, 0.5);
+  }
+  
+  #enlace a {
+    color: #fff700;
+    text-decoration: none;
+  }
+  
+  #enlace > div:hover {
+    background-color: rgba(211, 4, 4, 0.4);
+  }
+  
+  #enlace > div:hover a {
+    color: #0bff33;
+  }
+  /*# sourceMappingURL=estilos.css.map */

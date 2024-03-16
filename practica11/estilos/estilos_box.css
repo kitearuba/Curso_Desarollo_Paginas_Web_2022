@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+  background-image: url(/practica11/image/545406.jpg);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-size: 140%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80%;
+  height: auto;
+  margin-top: 10%;
+}
+
+body > div div {
+  font-size: 45px;
+  font-weight: bold;
+  color: red;
+}
+
+body > div div:hover {
+  color: yellow;
+}
+
+body > div div:first-child {
+  opacity: 1;
+}
+
+body > div div:nth-child(2) {
+  opacity: .9;
+}
+
+body > div div:nth-child(3) {
+  opacity: .8;
+}
+
+body > div div:nth-child(4) {
+  opacity: .7;
+}
+
+body > div div:nth-child(5) {
+  opacity: .6;
+}
+
+body > div div:nth-child(6) {
+  opacity: .5;
+}
+
+body > div div:nth-child(7) {
+  opacity: .4;
+}
+
+body > div div:nth-child(8) {
+  opacity: .3;
+}
+
+body > div div:nth-child(9) {
+  opacity: .2;
+}
+
+body > div div:nth-child(10) {
+  opacity: .1;
+}
+/*# sourceMappingURL=estilos_box.css.map */

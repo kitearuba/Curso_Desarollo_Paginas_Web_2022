@@ -1,0 +1,194 @@
+img{
+    width: 100%;
+    height: 100%;
+}
+
+/* *************************************************************************
+Header que incluye el titulo y contenido en resumen.  ************************************************************************* */
+h1{ 
+    width: 80%;
+    height:auto;
+    margin-left: 10%;
+    margin-bottom: 0%;
+    
+    
+        #titulo{
+            display: inline-block;
+            border: 3px dashed rgb(87, 178, 226);
+            background-color: white;
+            width: 37%;
+            height: 60px;
+            font-family: 'Abril Fatface', cursive;
+            font-weight: bold;
+            text-align: center;
+            box-sizing: border-box;
+            vertical-align: top;
+            div{
+                display: inline-block;
+                margin-top: 5px;
+                box-sizing: border-box;
+            }
+        }
+        #contenido{
+            display: inline-block;
+            border: 3px dashed rgb(87, 178, 226);
+            background-color: white;
+            width: 60.8%;
+            height: 54px;
+            div{
+                display: inline-block;
+                width: 65%;
+                height: 25px;
+                margin-top: 3%;
+                margin-left: 33%;
+                box-sizing: border-box;
+                div{
+                    display: inline-block;
+                    width: 29%;
+                    height: 14px;
+                    margin-top: 1.4%;
+                    margin-left: 1.5%;
+                    vertical-align: top;
+                    font-family:Arial, Helvetica, sans-serif;
+                    font-size: .8vw;
+                    text-align: center;
+                    box-sizing: border-box;
+                    color: blue;
+                    
+                }
+            }
+        }  
+}
+/* *************************************************************************
+Esta area es para el contenido  ************************************************************************* */
+section{
+    background-color: rgb(170, 170, 170);
+    width: 80%;
+    height:auto;
+    margin-left: 10%;
+    margin-top: 1%;
+    vertical-align: top;
+
+    #box1{
+        display: inline-block;
+        border: 3px dashed rgb(87, 178, 226);
+        width: 32%;
+        height: auto;
+        margin-top: 50px;
+
+        div{
+            display: inline-block;
+            width: 95%;
+            height: auto;
+            text-align: center;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            vertical-align: top;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 2%;
+
+            div{
+                display: inline-block;
+                width: 45%;
+                height: 15vw;
+                border: 5px solid black;
+                border-radius: 10px;
+                margin-bottom: 5px;                
+                box-sizing: border-box;
+            }
+        }
+        div:nth-child(2) {
+            font-size: .7vw;
+            margin-top:5px;
+            vertical-align: top;
+        }
+        div:nth-child(4) {
+           color: blue;
+           font-weight: normal;
+           font-size: .8vw;
+        }
+    }
+    #box2{
+        display: inline-block;
+        border: 3px dashed rgb(87, 178, 226);
+        width: 48.8%;
+        height: 200px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        vertical-align: top;
+
+        div{
+            border: 1px solid red;
+            width: 95%;
+            height: auto;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: .8vw;
+            vertical-align: top;
+            margin-bottom: 5px;
+            margin-left: 2%;
+            div{
+                border: 1px solid red;
+                width: 100%;
+                height: auto;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: .8vw;
+                vertical-align: top;
+                margin:0%;
+                
+                #name{
+                    display: inline;
+                    text-align: none;
+                    margin-right: 55%;
+                }
+                #content{
+                    display: inline-block;
+                    background-color: white;
+                    border-radius: 10px;
+                    width: 80%;
+                    height: 3vw;
+                    margin-left: 15%;
+                    font-size: .6vw;
+                    font-family: Arial, Helvetica, sans-serif;   
+                    div{
+                        display: inline;
+                        text-align: none;
+                        margin-right: 55%;
+                        margin-top: 1vw;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* ******************************************************************* Footer con informacion del Autor.  ******************************************************************** */
+
+footer{
+    background-color: rgb(255, 255, 255);
+    border: 3px dashed rgb(87, 178, 226);
+    width: 80%;
+    height:auto;
+    margin-left: 10%;
+    box-sizing: border-box;
+
+    div {
+        display: inline-block;
+        border: 2px solid rgb(255, 0, 0);
+        width: 95%;
+        height: 30px;
+        margin-left: 2.4%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        div{
+            display: inline-block;
+            border: 1px solid rgb(255, 0, 0);
+            width: 20%;
+            height:20px;
+            margin-left: 40%;
+            margin-top: 3px;
+        }
+        
+    }
+}

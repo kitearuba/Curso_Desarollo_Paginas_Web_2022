@@ -1,0 +1,124 @@
+img{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: rgb(186, 239, 255);
+}
+div{
+    display: inline-block;
+    border: 3px dashed rgb(0, 0, 90);
+    background-color: coral;
+    width:35%;
+    height: auto;
+    margin-left: 9%;
+    margin-top: 20px;
+}
+
+#city_nombre{
+    display: block;
+    border: none ;
+    width: 95%;
+    height: 30px;
+    margin-left: 2.5%;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 1.7em;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#city_img{
+    display: block;
+    border: 1px solid black;
+    width: 95%;
+    height: 170px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#city_img_1{
+    display: block;
+    border: none;
+    width: 100%;
+    height: 100%;
+    margin-left: 0%;
+    margin-top: 0%;
+    background-image: url(/practica8/image/san_francisco.webp); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}#city_img_2{
+    display: block;
+    border: none;
+    width: 100%;
+    height: 100%;
+    margin-left: 0%;
+    margin-top: 0%;
+    background-image: url(/practica8/image/portland.jpg); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+#city_img_3{
+    display: block;
+    border: none;
+    width: 100%;
+    height: 100%;
+    margin-left: 0%;
+    margin-top: 0%;
+    background-image: url(/practica8/image/amsterdam.jpg); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+#city_img_4{
+    display: block;
+    border: none;
+    width: 100%;
+    height: 100%;
+    margin-left: 0%;
+    margin-top: 0%;
+    background-image: url(/practica8/image/barcelona.png); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+@media only screen and (max-width: 850px) and (min-width: 450px) {
+        body{
+            background-color: rgb(152, 248, 152);
+
+        }
+        #city_nombre{
+            font-size: 1.2em;
+        }
+}
+@media only screen and (max-width: 449px) {
+        body{
+            background-color: rgb(255, 243, 177);
+        }
+        div{
+            position: relative;
+            display: inline-block;
+            border: 3px dashed rgb(0, 0, 90);
+            background-color: coral;
+            width:90%;
+            height: auto;
+            margin-left: 5%;
+            margin-top: 20px;    }
+        div :hover{
+            color: red;    
+        }
+        #city_nombre{
+            font-size: 1em;
+        }
+        
+        #city_img :hover{
+            box-shadow: 10px 10px 5px 12px lightblue;
+        }
+        
+}

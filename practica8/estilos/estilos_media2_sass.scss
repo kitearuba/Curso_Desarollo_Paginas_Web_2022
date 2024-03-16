@@ -1,0 +1,1207 @@
+img{
+    width: 100%;
+    height: 100%;
+}
+* {
+    padding: 0; // Sin margen interior
+    margin: 0; // Sin margen exterior
+    }
+/* *************************************************************************
+Header que incluye el titulo y contenido en resumen.  ************************************************************************* */
+h1{ 
+    display: flex;
+    justify-content: center; /* centrar horizontalmente */
+    align-items: center;  /* centrar vertical */
+    width: 80%;
+    height:auto;
+    margin-left: 10%;
+    
+    
+        #titulo{
+            display: inline-flex;
+            justify-content: space-evenly;  /* centrar horizontalmente */
+            align-items: center;
+            border: 3px dashed rgb(87, 178, 226);
+            background-color: white;
+            width: 37%;
+            height: 60px;
+            font-family: 'Abril Fatface', cursive;
+            font-weight: bold;
+            box-sizing: border-box;
+            div{
+                display: inline-flex;
+                justify-content: space-evenly;  /* centrar horizontalmente */
+                align-items: center;
+                box-sizing: border-box;
+            }
+        }
+        #contenido{
+            display: inline-flex;
+            justify-content: space-evenly;  /* centrar horizontalmente */
+            align-items: center;
+            border: 3px dashed rgb(87, 178, 226);
+            background-color: white;
+            width: 60.8%;
+            height: 54px;
+            div{
+                display: inline-flex;
+                justify-content: space-evenly;  /* centrar horizontalmente */
+                align-items: center;
+                width: 65%;
+                margin-left: 33%;
+                box-sizing: border-box;
+                div{
+                    display: inline-flex;
+                    justify-content: space-evenly;  /* centrar horizontalmente */
+                    align-items: center;
+                    width: 29%;
+                    margin-left: 1.5%;
+                    font-family:Arial, Helvetica, sans-serif;
+                    font-size: .8vw;
+                    box-sizing: border-box;
+                    color: blue;
+                }
+            }
+        }  
+}
+/* *************************************************************************
+Esta area es para el contenido  ************************************************************************* */
+section{
+    background-color: rgb(170, 170, 170);
+    width: 80%;
+    height:auto;
+    margin-left: 10%;
+    margin-top: 1%;
+    vertical-align: top;
+    #boxmain1{
+        display: flex;
+        justify-content: center; /* centrar horizontalmente */
+        align-items: center;  /* centrar vertical */
+
+        #box1{
+            display: inline-block;
+            border: 3px dashed rgb(87, 178, 226);
+            width: 32%;
+            height: auto;
+            margin-top: 5vw;
+
+            div{
+                display: inline-flex;
+                justify-content: center; /* centrar horizontalmente */
+                align-items: center;  /* centrar vertical */
+                width: 95%;
+                height: auto;
+                font-weight: bold;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-top: 1vw;
+                margin-bottom: 1vw;
+                margin-left: 2%;
+                font-size: 2vw;
+
+                div{
+                    display: inline-block;
+                    width: 45%;
+                    height: 15vw;
+                    border: 5px solid black;
+                    border-radius: 10px;
+                    margin-bottom: 5px;                
+                    box-sizing: border-box;
+                    font-size: 1vw;
+                }
+            }
+            div:first-child{
+                font-size: 1vw;
+                font-weight: bolder;
+            }
+            div:nth-child(2) {
+                font-size: .7vw;
+                margin-top:5px;
+                vertical-align: top;
+            }
+            div:nth-child(4) {
+            color: blue;
+            font-weight: normal;
+            font-size: .8vw;
+            }
+        }
+    }
+    #boxmain2{
+        display: flex;
+        justify-content: center; /* centrar horizontalmente */
+        align-items: center;  /* centrar vertical */
+        vertical-align: top;
+        #box2a{
+            display: flex;
+            justify-content: center;  /* centrar horizontalmente */
+            align-items: center;  /* centrar vertical */
+            flex-wrap: wrap;
+            vertical-align: top;
+            border: 3px dashed rgb(87, 178, 226);
+            width: 48.8%;
+            height: auto;
+            margin-top: 1vw;
+            margin-bottom: 3vw;
+
+            #box2a-1{
+                display: inline-flex;
+                justify-content: center;  /* centrar horizontalmente */
+                align-items:flex-start;  /* centrar vertical */
+                width: 95%;
+                height: auto;
+                font-size: .8vw;                
+                
+
+                fieldset{
+                    margin-top:5% ;
+                    border: none;
+                    font-size: 1vw;
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                    
+                    input{
+                        margin-bottom: 1vw;
+                    }
+                    >input{
+                        border-radius: 10px;
+                        height: 4vw;
+                        width: 100%;
+                        margin:0%;
+                       }
+                    /* Customize the label (the container) */
+                    .container {
+                        display: inline-flex;
+                        justify-content:center; /* centrar horizontalmente */
+                        align-items: flex-start;  /* centrar vertical */
+                        position: relative;
+                        padding-left:1vw;
+                        padding-right:1vw;
+                        cursor: pointer;
+                        -webkit-user-select: none;
+                        -moz-user-select: none;
+                        -ms-user-select: none;
+                        user-select: none;
+                    }
+                    
+                    /* Hide the browser's default radio button */
+                    .container input {
+                        position: relative;
+                        opacity: 0;
+                        cursor: pointer;
+                        height: 0;
+                        width: 0;
+                    }
+                    
+                    /* Create a custom radio button */
+                    .checkmark {
+                        position: relative;
+                        top: 0;
+                        left: 0;
+                        height: .8vw;
+                        width: .8vw;
+                        background-color: #eee;
+                        border-radius: 50%;
+                    }
+                    
+                    /* On mouse-over, add a grey background color */
+                    .container:hover input ~ .checkmark {
+                        background-color: #ccc;
+                    }
+                    
+                    /* When the radio button is checked, add a blue background */
+                    .container input:checked ~ .checkmark {
+                        background-color: #2196F3;
+                    }
+                    
+                    /* Create the indicator (the dot/circle - hidden when not checked) */
+                    .checkmark:after {
+                        content: "";
+                        position: relative;
+                        display: none;
+                    }
+                    
+                    /* Show the indicator (dot/circle) when checked */
+                    .container input:checked ~ .checkmark:after {
+                        display: block;
+                    }
+                    
+                    /* Style the indicator (dot/circle) */
+                    .container .checkmark:after {
+                        top: 9px;
+                        left: 9px;
+                        width: 8px;
+                        height: auto;
+                        border-radius: 50%;
+                        background: white;
+                    } 
+                    >div{
+                        display: flex;
+                        justify-content:center; /* centrar horizontalmente */
+                        align-items: center;  /* centrar vertical */
+                        flex-wrap: wrap;
+                        border: 1px solid rgb(114, 111, 111);
+                        margin-bottom: 1vw;
+                        
+                        div:first-child{
+                            display: inline-block;
+                            width: 80%;
+                            text-align: center;
+                            margin-bottom: .5vw;
+                        }
+                    }
+            
+                }
+            }
+            div:first-child{
+                font-size: 1vw;
+                margin-top: .5vw;
+            }
+            
+        }
+        #box2b{
+            display: inline-block;
+            border: 3px dashed rgb(87, 178, 226);
+            width: 48.8%;
+            height: auto;
+            margin-top: 1vw;
+            margin-bottom: 3vw;
+            margin-left: 1%;
+            padding-bottom:10.7vw;
+
+            div{
+                display: inline-flex;
+                justify-content: space-evenly;  /* centrar horizontalmente */
+                align-items: center;  /* centrar vertical */
+                width: 95%;
+                height: auto;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: .8vw;
+                vertical-align: top;
+                margin-bottom: 5px;
+                margin-left: 2%;
+                
+                }
+            span{
+                display: inline-flex;
+                justify-content: space-evenly;  /* centrar horizontalmente */
+                align-items: center;  /* centrar vertical */
+                border: 1px solid rgb(238, 238, 238);
+                flex: 1;
+                height: 2.5vw;
+                font-size: 1vw;
+            }
+            span:first-child{
+                flex:2;
+            }
+            span:nth-child(3){
+                flex: 1.5;
+            }
+            div:nth-child(2){
+                margin-top: 0%;
+                margin-bottom: 0%;
+                background-color: green;
+            }
+            div:nth-child(3){
+                margin-top: 0%;
+                margin-bottom: 0%;
+            }
+            div:nth-child(4){
+                margin-top: 0%;
+                margin-bottom: 0%;
+            }
+            
+        }
+    }
+}
+
+/* ******************************************************************* Footer con informacion del Autor.  ******************************************************************** */
+
+footer{
+    display: flex;
+    justify-content: center; /* centrar horizontalmente */
+    align-items: center;  /* centrar vertical */
+    background-color: rgb(255, 255, 255);
+    border: 3px dashed rgb(87, 178, 226);
+    box-sizing: border-box;
+    width: 80%;
+    height:auto;
+    margin-left: 10%;
+    margin-bottom: 7%;
+
+    div {
+        display: flex;
+        justify-content: center; /* centrar horizontalmente */
+        align-items: center;  /* centrar vertical */
+        width: 95%;
+        height: auto;
+
+        div{
+            display: inline-flex;
+            justify-content: center; /* centrar horizontalmente */
+            align-items: center;  /* centrar vertical */
+            width: 40%;
+            height:auto;
+            font-size: 1.5vw;
+            font-weight: bold;
+            padding-top: .5vw;
+            padding-bottom: .5vw;
+        }
+        
+    }
+}
+
+#enlace{
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background-color: black;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 7vw;
+    height:auto;
+    border: none;
+    padding: none;
+
+    >div{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 30%;
+    height: 6.5vw;
+    font-size: 3vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    font-weight: bold;
+    border-radius: 20px;
+    border: .1px solid black;
+    background-color: rgba(136, 131, 228, 0.5);
+    }
+
+    a{
+        color:rgb(255, 247, 0);
+        text-decoration: none;
+    }
+
+    >div:hover{
+            background-color: rgba(211, 4, 4, 0.4);
+           
+            a{
+                color:rgb(11, 255, 51);
+            }
+    }
+}
+
+@media screen and (max-width:900px){
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    * {
+        padding: 0; // Sin margen interior
+        margin: 0; // Sin margen exterior
+        }
+    /* *************************************************************************
+    Header que incluye el titulo y contenido en resumen.  ************************************************************************* */
+    h1{ 
+        display: flex;
+        justify-content: center; /* centrar horizontalmente */
+        align-items: center;  /* centrar vertical */
+        width: 80%;
+        height:auto;
+        margin-left: 10%;
+        
+        
+            #titulo{
+                display: inline-flex;
+                justify-content: space-evenly;  /* centrar horizontalmente */
+                align-items: center;
+                border: none;
+                background-color: white;
+                width: 37%;
+                height: 60px;
+                font-family: 'Abril Fatface', cursive;
+                font-weight: bold;
+                box-sizing: border-box;
+                div{
+                    display: inline-flex;
+                    justify-content: space-evenly;  /* centrar horizontalmente */
+                    align-items: center;
+                    box-sizing: border-box;
+                }
+            }
+            #contenido{
+                display: inline-flex;
+                justify-content: space-evenly;  /* centrar horizontalmente */
+                align-items: center;
+                border: none;
+                background-color: white;
+                width: 60.8%;
+                height: 54px;
+                div{
+                    display: inline-flex;
+                    justify-content: space-evenly;  /* centrar horizontalmente */
+                    align-items: center;
+                    width: 95%;
+                    margin-left: 4%;
+                    box-sizing: border-box;
+                    div{
+                        display: inline-flex;
+                        justify-content: space-evenly;  /* centrar horizontalmente */
+                        align-items: center;
+                        width: 33%;
+                        margin-left: 1.5%;
+                        font-family:Arial, Helvetica, sans-serif;
+                        font-size: 1.5vw;
+                        box-sizing: border-box;
+                        color: blue;
+                    }
+                }
+            }  
+    }
+    /* *************************************************************************
+    Esta area es para el contenido  ************************************************************************* */
+    section{
+        background-color: rgb(170, 170, 170);
+        width: 80%;
+        height:auto;
+        margin-left: 10%;
+        margin-top: 1%;
+        vertical-align: top;
+        #boxmain1{
+            display: flex;
+            justify-content:space-between; /* centrar horizontalmente */
+            align-items:baseline;  /* centrar vertical */
+            flex-wrap: wrap;
+    
+            #box1{
+                display: flex;
+                flex-wrap: wrap;
+                border: none;
+                width: 40%;
+                height: auto;
+                margin-top: 4vw;
+                margin-left: 5%;
+                margin-right: 5%;
+    
+                div{
+                    display: inline-flex;
+                    justify-content: center; /* centrar horizontalmente */
+                    align-items: center;  /* centrar vertical */
+                    width: 95%;
+                    height: auto;
+                    font-weight: bold;
+                    font-family: Arial, Helvetica, sans-serif;
+                    margin-top: 1vw;
+                    margin-bottom: 1vw;
+                    margin-left: 2%;
+                    font-size: 2vw;
+    
+                    div{
+                        display: inline-block;
+                        width: 45%;
+                        height: 19vw;
+                        border: 5px solid black;
+                        border-radius: 10px;
+                        margin-bottom: 5px;                
+                        box-sizing: border-box;
+                        font-size: 1vw;
+                    }
+                }
+                div:first-child{
+                    font-size: 1vw;
+                    font-weight: bolder;
+                }
+                div:nth-child(2) {
+                    font-size: .7vw;
+                    margin-top:5px;
+                    vertical-align: top;
+                }
+                div:nth-child(4) {
+                color: blue;
+                font-weight: normal;
+                font-size: .8vw;
+                }
+            }
+            
+        }
+        #boxmain2{
+            display: flex;
+            justify-content: center; /* centrar horizontalmente */
+            align-items: center;  /* centrar vertical */
+            flex-wrap: wrap;
+            vertical-align: top;
+            #box2a{
+                display: flex;
+            justify-content: center; /* centrar horizontalmente */
+            align-items: center;  /* centrar vertical */
+                border: none;
+                width: 85%;
+                height: auto;
+                margin-top: 1vw;
+                margin-bottom: 3vw;
+    
+                #box2a-1{
+                    display: inline-flex;
+                    justify-content: center;  /* centrar horizontalmente */
+                    align-items:flex-start;  /* centrar vertical */
+                    flex-wrap: wrap;
+                    width: 95%;
+                    height: auto;
+                    font-size: .8vw;                
+                    
+    
+                    fieldset{
+                        margin-top:5% ;
+                        border: none;
+                        font-size: 1vw;
+                        font-family: Georgia, 'Times New Roman', Times, serif;
+                        
+                        input{
+                            margin-bottom: 1vw;
+                        }
+                        >input{
+                            border-radius: 10px;
+                            height: 4vw;
+                            width: 100%;
+                            margin:0%;
+                           }
+                        /* Customize the label (the container) */
+                        .container {
+                            display: inline-flex;
+                            justify-content:center; /* centrar horizontalmente */
+                            align-items: flex-start;  /* centrar vertical */
+                            position: relative;
+                            padding-left:1vw;
+                            padding-right:1vw;
+                            cursor: pointer;
+                            -webkit-user-select: none;
+                            -moz-user-select: none;
+                            -ms-user-select: none;
+                            user-select: none;
+                        }
+                        
+                        /* Hide the browser's default radio button */
+                        .container input {
+                            position: relative;
+                            opacity: 0;
+                            cursor: pointer;
+                            height: 0;
+                            width: 0;
+                        }
+                        
+                        /* Create a custom radio button */
+                        .checkmark {
+                            position: relative;
+                            top: 0;
+                            left: 0;
+                            height: .8vw;
+                            width: .8vw;
+                            background-color: #eee;
+                            border-radius: 50%;
+                        }
+                        
+                        /* On mouse-over, add a grey background color */
+                        .container:hover input ~ .checkmark {
+                            background-color: #ccc;
+                        }
+                        
+                        /* When the radio button is checked, add a blue background */
+                        .container input:checked ~ .checkmark {
+                            background-color: #2196F3;
+                        }
+                        
+                        /* Create the indicator (the dot/circle - hidden when not checked) */
+                        .checkmark:after {
+                            content: "";
+                            position: relative;
+                            display: none;
+                        }
+                        
+                        /* Show the indicator (dot/circle) when checked */
+                        .container input:checked ~ .checkmark:after {
+                            display: block;
+                        }
+                        
+                        /* Style the indicator (dot/circle) */
+                        .container .checkmark:after {
+                            top: 9px;
+                            left: 9px;
+                            width: 8px;
+                            height: auto;
+                            border-radius: 50%;
+                            background: white;
+                        } 
+                        >div{
+                            display: flex;
+                            justify-content:center; /* centrar horizontalmente */
+                            align-items: center;  /* centrar vertical */
+                            flex-wrap: wrap;
+                            border: 1px solid rgb(114, 111, 111);
+                            margin-bottom: 1vw;
+                            padding-bottom: .7vw;
+                            
+                            div:first-child{
+                                display: inline-block;
+                                width: 80%;
+                                text-align: center;
+                            }
+                        }
+                
+                    }
+                }
+                div:first-child{
+                    font-size: 1vw;
+                    margin-top: .5vw;
+                    margin-bottom:.5vw ;
+                }
+                
+            }
+            #box2b{
+                display: inline-block;
+                
+                border: none;
+                width: 48.8%;
+                height: auto;
+                margin-top: 1vw;
+                margin-bottom: 3vw;
+                margin-left: 1%;
+                padding-bottom:10.7vw;
+    
+                div{
+                    display: inline-flex;
+                    justify-content: space-evenly;  /* centrar horizontalmente */
+                    align-items: center;  /* centrar vertical */
+                    width: 95%;
+                    height: auto;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: .8vw;
+                    vertical-align: top;
+                    margin-bottom: 5px;
+                    margin-left: 2%;
+                    
+                    }
+                span{
+                    display: inline-flex;
+                    justify-content: space-evenly;  /* centrar horizontalmente */
+                    align-items: center;  /* centrar vertical */
+                    border: 1px solid rgb(238, 238, 238);
+                    flex: 1;
+                    height: 2.5vw;
+                    font-size: 1vw;
+                }
+                span:first-child{
+                    flex:2;
+                }
+                span:nth-child(3){
+                    flex: 1.5;
+                }
+                div:nth-child(2){
+                    margin-top: 0%;
+                    margin-bottom: 0%;
+                    background-color: green;
+                }
+                div:nth-child(3){
+                    margin-top: 0%;
+                    margin-bottom: 0%;
+                }
+                div:nth-child(4){
+                    margin-top: 0%;
+                    margin-bottom: 0%;
+                }
+                
+            }
+        }
+    }
+    
+    /* ******************************************************************* Footer con informacion del Autor.  ******************************************************************** */
+    
+    footer{
+        display: flex;
+        justify-content: center; /* centrar horizontalmente */
+        align-items: center;  /* centrar vertical */
+        background-color: rgb(255, 255, 255);
+        border: none;
+        box-sizing: border-box;
+        width: 80%;
+        height:auto;
+        margin-left: 10%;
+        margin-bottom: 7%;
+    
+        div {
+            display: flex;
+            justify-content: center; /* centrar horizontalmente */
+            align-items: center;  /* centrar vertical */
+            width: 95%;
+            height: auto;
+    
+            div{
+                display: inline-flex;
+                justify-content: center; /* centrar horizontalmente */
+                align-items: center;  /* centrar vertical */
+                width: 40%;
+                height:auto;
+                font-size: 1.5vw;
+                font-weight: bold;
+                padding-top: .5vw;
+                padding-bottom: .5vw;
+            }
+            
+        }
+    }
+    
+    #enlace{
+        display: inline-flex;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+        background-color: black;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 7vw;
+        height:auto;
+        border: none;
+        padding: none;
+
+        >div{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 30%;
+        height: 6.5vw;
+        font-size: 3vw;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+        font-weight: bold;
+        border-radius: 20px;
+        border: .1px solid black;
+        background-color: rgba(136, 131, 228, 0.5);
+        }
+
+        a{
+            color:rgb(255, 247, 0);
+            text-decoration: none;
+        }
+
+        >div:hover{
+                background-color: rgba(211, 4, 4, 0.4);
+               
+                a{
+                    color:rgb(11, 255, 51);
+                }
+        }
+    }
+    
+
+}
+
+
+@media screen and (max-width:500px){
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    * {
+        padding: 0; // Sin margen interior
+        margin: 0; // Sin margen exterior
+        }
+    /* *************************************************************************
+    Header que incluye el titulo y contenido en resumen.  ************************************************************************* */
+    h1{ 
+        display: flex;
+        justify-content: center; /* centrar horizontalmente */
+        align-items: center;  /* centrar vertical */
+        width: 80%;
+        height:auto;
+        margin-left: 10%;
+        
+        
+            #titulo{
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                border: none;
+                background-color: white;
+                width: 44%;
+                height: auto;
+                font-family: 'Abril Fatface', cursive;
+                font-size: 7vw;
+                font-weight: bold;
+                box-sizing: border-box;
+
+                div{
+                    display: inline-flex;
+                    justify-content: center;  /* centrar horizontalmente */
+                    align-items: center;
+                    box-sizing: border-box;
+                }
+            }
+            #contenido{
+                display: inline-flex;
+                justify-content: center;  /* centrar horizontalmente */
+                align-items: center;
+                border: none;
+                background-color: white;
+                width: 52%;
+                height: auto;
+                div{
+                    display: flex;
+                    justify-content: center;  /* centrar horizontalmente */
+                    align-items: center;
+                    flex-wrap: wrap;
+                    width: 95%;
+                    margin-left: 4%;
+                    box-sizing: border-box;
+                    div{
+                        display: inline-flex;
+                        justify-content: space-evenly;  /* centrar horizontalmente */
+                        align-items: center;
+                        width:80%;
+                        margin-left: 1.5%;
+                        font-family:Arial, Helvetica, sans-serif;
+                        font-size: 2.5vw;
+                        box-sizing: border-box;
+                        color: blue;
+                    }
+                }
+            }  
+    }
+    /* *************************************************************************
+    Esta area es para el contenido  ************************************************************************* */
+    section{
+        background-color: rgb(170, 170, 170);
+        width: 80%;
+        height:auto;
+        margin-left: 10%;
+        margin-top: 1%;
+        vertical-align: top;
+        #boxmain1{
+            display: flex;
+            justify-content:space-between; /* centrar horizontalmente */
+            align-items:baseline;  /* centrar vertical */
+            flex-wrap: wrap;
+    
+            #box1{
+                display: block;
+                border: none;
+                width: 70%;
+                height: auto;
+                margin-top: 4vw;
+                margin-left: 14%;
+                margin-right: 5%;
+    
+                div{
+                    display: inline-flex;
+                    justify-content: center; /* centrar horizontalmente */
+                    align-items: center;  /* centrar vertical */
+                    align-content: center;
+                    width: 95%;
+                    height: auto;
+                    font-weight: bold;
+                    font-family: Arial, Helvetica, sans-serif;
+                    margin-top: 1vw;
+                    margin-bottom: 1vw;
+                    margin-left: 2%;
+                    font-size: 3vw;
+    
+                    div{
+                        display: inline-block;
+                        width: 45%;
+                        height: 34vw;
+                        border: 5px solid black;
+                        border-radius: 10px;
+                        margin-bottom: 5px;                
+                        box-sizing: border-box;
+                        font-size: 1vw;
+                    }
+                }
+                div:first-child{
+                    font-size: 3vw;
+                    font-weight: bolder;
+                    margin-bottom: 7px;
+                }
+                div:nth-child(2) {
+                    font-size: 2vw;
+                    margin-top:5px;
+                    vertical-align: top;
+                }
+                div:nth-child(4) {
+                color: blue;
+                font-weight: normal;
+                font-size: 2.5vw;
+                }
+            }
+            
+        }
+        #boxmain2{
+            display: flex;
+            justify-content: center; /* centrar horizontalmente */
+            align-items: center;  /* centrar vertical */
+            flex-wrap: wrap;
+            vertical-align: top;
+            #box2a{
+                display: flex;
+            justify-content: center; /* centrar horizontalmente */
+            align-items: center;  /* centrar vertical */
+                border: none;
+                width: 85%;
+                height: auto;
+                margin-top: 1vw;
+                margin-bottom: 3vw;
+    
+                #box2a-1{
+                    display: inline-flex;
+                    justify-content: center;  /* centrar horizontalmente */
+                    align-items:flex-start;  /* centrar vertical */
+                    flex-wrap: wrap;
+                    width: 95%;
+                    height: auto;
+                    font-size: .8vw;                
+                    
+    
+                    fieldset{
+                        margin-top:5% ;
+                        border: none;
+                        font-size: 3vw;
+                        font-family: Georgia, 'Times New Roman', Times, serif;
+                        
+                        input{
+                            margin-bottom: 1vw;
+                        }
+                        >input{
+                            border-radius: 5px;
+                            height: 4vw;
+                            width: 100%;
+                            margin:0%;
+                           }
+                        /* Customize the label (the container) */
+                        .container {
+                            display: inline-flex;
+                            justify-content:center; /* centrar horizontalmente */
+                            align-items: flex-start;  /* centrar vertical */
+                            position: relative;
+                            padding-left:2vw;
+                            padding-right:2vw;
+                            cursor: pointer;
+                            -webkit-user-select: none;
+                            -moz-user-select: none;
+                            -ms-user-select: none;
+                            user-select: none;
+                        }
+                        
+                        /* Hide the browser's default radio button */
+                        .container input {
+                            position: relative;
+                            opacity: 0;
+                            cursor: pointer;
+                            height: 0;
+                            width: 0;
+                        }
+                        
+                        /* Create a custom radio button */
+                        .checkmark {
+                            position: relative;
+                            top: 0;
+                            left: 1vw;
+                            height: 4vw;
+                            width: 4vw;
+                            background-color: #eee;
+                            border-radius: 50%;
+                        }
+                        
+                        /* On mouse-over, add a grey background color */
+                        .container:hover input ~ .checkmark {
+                            background-color: #ccc;
+                        }
+                        
+                        /* When the radio button is checked, add a blue background */
+                        .container input:checked ~ .checkmark {
+                            background-color: #2196F3;
+                        }
+                        
+                        /* Create the indicator (the dot/circle - hidden when not checked) */
+                        .checkmark:after {
+                            content: "";
+                            position: relative;
+                            display: none;
+                        }
+                        
+                        /* Show the indicator (dot/circle) when checked */
+                        .container input:checked ~ .checkmark:after {
+                            display: block;
+                        }
+                        
+                        /* Style the indicator (dot/circle) */
+                        .container .checkmark:after {
+                            top: 9px;
+                            left: 9px;
+                            width: 8px;
+                            height: auto;
+                            border-radius: 50%;
+                            background: white;
+                        } 
+                        >div{
+                            display: flex;
+                            justify-content:center; /* centrar horizontalmente */
+                            align-items: center;  /* centrar vertical */
+                            flex-wrap: wrap;
+                            border: 1px solid rgb(114, 111, 111);
+                            margin-bottom: 2vw;
+                            padding-bottom: .7vw;
+                            
+                            div:first-child{
+                                display: inline-block;
+                                width: 80%;
+                                text-align: center;
+                            }
+                        }
+                
+                    }
+                }
+                div:first-child{
+                    font-size: 3vw;
+                    margin-top: .5vw;
+                    margin-bottom:.5vw ;
+                    padding-bottom: 1vw;
+                }
+                
+            }
+            #box2b{
+                display: inline-block;
+                
+                border: none;
+                width: 90%;
+                height: auto;
+                margin-top: 1vw;
+                margin-bottom: 3vw;
+                margin-left: 1%;
+                padding-bottom:10.7vw;
+    
+                div{
+                    display: inline-flex;
+                    justify-content: space-evenly;  /* centrar horizontalmente */
+                    align-items: center;  /* centrar vertical */
+                    width: 95%;
+                    height: auto;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 3vw;
+                    vertical-align: top;
+                    margin-bottom: 5px;
+                    margin-left: 2%;
+                    
+                    }
+                span{
+                    display: inline-flex;
+                    justify-content:center;  /* centrar horizontalmente */
+                    align-items: center;  /* centrar vertical */
+                    border: 1px solid rgb(238, 238, 238);
+                    flex: 1;
+                    height: auto;
+                    font-size: 3vw;
+                }
+                span:first-child{
+                    flex:3;
+                }
+                span:nth-child(3){
+                    flex: 2;
+                }
+                div:nth-child(2){
+                    margin-top: 0%;
+                    margin-bottom: 0%;
+                    background-color: green;
+                }
+                div:nth-child(3){
+                    margin-top: 0%;
+                    margin-bottom: 0%;
+                }
+                div:nth-child(4){
+                    margin-top: 0%;
+                    margin-bottom: 0%;
+                }
+                
+            }
+        }
+    }
+    
+    /* ******************************************************************* Footer con informacion del Autor.  ******************************************************************** */
+    
+    footer{
+        display: flex;
+        justify-content: center; /* centrar horizontalmente */
+        align-items: center;  /* centrar vertical */
+        background-color: rgb(255, 255, 255);
+        border: none;
+        box-sizing: border-box;
+        width: 80%;
+        height:auto;
+        margin-left: 10%;
+        margin-bottom: 7%;
+    
+        div {
+            display: flex;
+            justify-content: center; /* centrar horizontalmente */
+            align-items: center;  /* centrar vertical */
+            width: 95%;
+            height: auto;
+    
+            div{
+                display: inline-flex;
+                justify-content: center; /* centrar horizontalmente */
+                align-items: center;  /* centrar vertical */
+                width: 60%;
+                height:auto;
+                font-size: 2.5vw;
+                font-weight: bold;
+                padding-top: .5vw;
+                padding-bottom: .5vw;
+            }
+            
+        }
+    }
+    #enlace{
+        display: inline-flex;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+        background-color: black;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 7vw;
+        height:auto;
+        border: none;
+        padding: none;
+
+        >div{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 30%;
+        height: 6.5vw;
+        font-size: 3vw;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+        font-weight: bold;
+        border-radius: 20px;
+        border: .1px solid black;
+        background-color: rgba(136, 131, 228, 0.5);
+        }
+
+        a{
+            color:rgb(255, 247, 0);
+            text-decoration: none;
+        }
+
+        >div:hover{
+                background-color: rgba(211, 4, 4, 0.4);
+               
+                a{
+                    color:rgb(11, 255, 51);
+                }
+        }
+    }
+    
+
+}

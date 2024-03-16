@@ -1,0 +1,179 @@
+img{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: rgb(186, 239, 255);
+}
+div{
+    display: inline-block;
+    border: 3px dashed rgb(0, 0, 90);
+    background-color: coral;
+    width:35%;
+    height: auto;
+    margin-left: 9%;
+    margin-top: 20px;
+}
+
+#city_nombre{
+    display: block;
+    border: none ;
+    width: 95%;
+    height: 30px;
+    margin-left: 2.5%;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 1.7em;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#city_img{
+    display: block;
+    border: 1px solid black;
+    width: 95%;
+    height: 170px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#city_img_1{
+    display: block;
+    border: none;
+    width: 100%;
+    height: 100%;
+    margin-left: 0%;
+    margin-top: 0%;
+    background-image: url(/practica8/image/san_francisco.webp); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}#city_img_2{
+    display: block;
+    border: none;
+    width: 100%;
+    height: 100%;
+    margin-left: 0%;
+    margin-top: 0%;
+    background-image: url(/practica8/image/portland.jpg); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+#city_img_3{
+    display: block;
+    border: none;
+    width: 100%;
+    height: 100%;
+    margin-left: 0%;
+    margin-top: 0%;
+    background-image: url(/practica8/image/amsterdam.jpg); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+#city_img_4{
+    display: block;
+    border: none;
+    width: 100%;
+    height: 100%;
+    margin-left: 0%;
+    margin-top: 0%;
+    background-image: url(/practica8/image/barcelona.png); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+#enlace {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    background-color: black;
+    width: 100%;
+    margin-top: 7vw;
+    height: auto;
+    border: none;
+    padding: none;
+  }
+  
+  #enlace > div {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    width: 30%;
+    height: 6.5vw;
+    font-size: 3vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    font-weight: bold;
+    border-radius: 20px;
+    border: .1px solid black;
+    background-color: rgba(136, 131, 228, 0.5);
+  }
+  
+  #enlace a {
+    color: #fff700;
+    text-decoration: none;
+  }
+  
+  #enlace > div:hover {
+    background-color: rgba(211, 4, 4, 0.4);
+  }
+  
+  #enlace > div:hover a {
+    color: #0bff33;
+  }
+  /*# sourceMappingURL=estilos.css.map */
+@media only screen and (max-width: 850px) and (min-width: 450px) {
+        body{
+            background-color: rgb(152, 248, 152);
+
+        }
+        #city_nombre{
+            font-size: 1.2em;
+        }
+}
+@media only screen and (max-width: 449px) {
+        body{
+            background-color: rgb(255, 243, 177);
+        }
+        div{
+            position: relative;
+            display: inline-block;
+            border: 3px dashed rgb(0, 0, 90);
+            background-color: coral;
+            width:90%;
+            height: auto;
+            margin-left: 5%;
+            margin-top: 20px;    }
+        div :hover{
+            color: red;    
+        }
+        #city_nombre{
+            font-size: 1em;
+        }
+        
+        #city_img :hover{
+            box-shadow: 10px 10px 5px 12px lightblue;
+        }
+        
+}

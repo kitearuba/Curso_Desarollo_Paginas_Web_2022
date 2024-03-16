@@ -1,0 +1,209 @@
+img {
+  width: 100%;
+  height: 100%;
+}
+
+/* *************************************************************************
+Header que incluye el titulo y contenido en resumen.  ************************************************************************* */
+h1 {
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  margin-bottom: 0%;
+}
+
+h1 #titulo {
+  display: inline-block;
+  border: 3px dashed #57b2e2;
+  background-color: white;
+  width: 37%;
+  height: 60px;
+  font-family: 'Abril Fatface', cursive;
+  font-weight: bold;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  vertical-align: top;
+}
+
+h1 #titulo div {
+  display: inline-block;
+  margin-top: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1 #contenido {
+  display: inline-block;
+  border: 3px dashed #57b2e2;
+  background-color: white;
+  width: 60.8%;
+  height: 54px;
+}
+
+h1 #contenido div {
+  display: inline-block;
+  width: 65%;
+  height: 25px;
+  margin-top: 3%;
+  margin-left: 33%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1 #contenido div div {
+  display: inline-block;
+  width: 29%;
+  height: 14px;
+  margin-top: 1.4%;
+  margin-left: 1.5%;
+  vertical-align: top;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: .8vw;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: blue;
+}
+
+/* *************************************************************************
+Esta area es para el contenido  ************************************************************************* */
+section {
+  background-color: #aaaaaa;
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  margin-top: 1%;
+  vertical-align: top;
+}
+
+section #box1 {
+  display: inline-block;
+  border: 3px dashed #57b2e2;
+  width: 32%;
+  height: auto;
+  margin-top: 50px;
+}
+
+section #box1 div {
+  display: inline-block;
+  width: 95%;
+  height: auto;
+  text-align: center;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  vertical-align: top;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 2%;
+}
+
+section #box1 div div {
+  display: inline-block;
+  width: 45%;
+  height: 15vw;
+  border: 5px solid black;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+section #box1 div:nth-child(2) {
+  font-size: .7vw;
+  margin-top: 5px;
+  vertical-align: top;
+}
+
+section #box1 div:nth-child(4) {
+  color: blue;
+  font-weight: normal;
+  font-size: .8vw;
+}
+
+section #box2 {
+  display: inline-block;
+  border: 3px dashed #57b2e2;
+  width: 48.8%;
+  height: 200px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  vertical-align: top;
+}
+
+section #box2 div {
+  border: 1px solid red;
+  width: 95%;
+  height: auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: .8vw;
+  vertical-align: top;
+  margin-bottom: 5px;
+  margin-left: 2%;
+}
+
+section #box2 div div {
+  border: 1px solid red;
+  width: 100%;
+  height: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: .8vw;
+  vertical-align: top;
+  margin: 0%;
+}
+
+section #box2 div div #name {
+  display: inline;
+  text-align: none;
+  margin-right: 55%;
+}
+
+section #box2 div div #content {
+  display: inline-block;
+  background-color: white;
+  border-radius: 10px;
+  width: 80%;
+  height: 3vw;
+  margin-left: 15%;
+  font-size: .6vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section #box2 div div #content div {
+  display: inline;
+  text-align: none;
+  margin-right: 55%;
+  margin-top: 1vw;
+}
+
+/* ******************************************************************* Footer con informacion del Autor.  ******************************************************************** */
+footer {
+  background-color: white;
+  border: 3px dashed #57b2e2;
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+footer div {
+  display: inline-block;
+  border: 2px solid red;
+  width: 95%;
+  height: 30px;
+  margin-left: 2.4%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+footer div div {
+  display: inline-block;
+  border: 1px solid red;
+  width: 20%;
+  height: 20px;
+  margin-left: 40%;
+  margin-top: 3px;
+}
+/*# sourceMappingURL=estilos_media2_sass.css.map */

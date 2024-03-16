@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+image {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #1b2737;
+  background-image: url(/practica3/image/music.png);
+  background-repeat: repeat;
+  background-size: cover;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-position: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body header {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin-top: 6vw;
+}
+
+body header h1 {
+  background-color: rgba(7, 0, 0, 0.666);
+  font-size: 6.5vw;
+  font-weight: bolder;
+  color: #f5fd51;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-shadow: 0.4vw 0.4vw rgba(250, 3, 3, 0.877);
+  -webkit-text-decoration: #d50b0b;
+          text-decoration: #d50b0b;
+  text-align: center;
+  border: 2px solid goldenrod;
+  border-radius: 4vw;
+  padding: 0 1vw 0 1vw;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(7, 0, 0, 0.768);
+  border: 2px solid goldenrod;
+  border-radius: 4vw;
+  padding: 1.5vw .9vw 1vw .9vw;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 80%;
+  height: auto;
+  margin-top: 5vw;
+}
+
+body section div {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body section div a img {
+  height: 18vw;
+  border: 2px solid goldenrod;
+  border-radius: 4vw;
+}
+
+body section div:hover a img {
+  height: 16vw;
+  border: 4px solid #ee2727;
+  border-radius: 6vw;
+}
+
+body #enlace {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background-color: black;
+  width: 100%;
+  margin: 0%;
+  margin-top: 7vw;
+  height: auto;
+  border: none;
+  padding: none;
+}
+
+body #enlace > div {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 30%;
+  height: 3.5vw;
+  font-size: 3vw;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+  font-weight: bold;
+  border-radius: 20px;
+  border: .1px solid black;
+  background-color: rgba(136, 131, 228, 0.5);
+}
+
+body #enlace a {
+  color: #fff700;
+  text-decoration: none;
+}
+
+body #enlace > div:hover {
+  background-color: rgba(211, 4, 4, 0.4);
+}
+
+body #enlace > div:hover a {
+  color: #0bff33;
+}
+/*# sourceMappingURL=estilos.css.map */

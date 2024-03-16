@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/js/exercise4/image/bizcuit.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    color: white;
+
+    #box_color{
+        display: inline-block;
+        width: 30%;
+        height: 300px;
+        border: 2px solid black;
+        background-color: chartreuse;
+
+    }
+}

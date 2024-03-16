@@ -1,0 +1,121 @@
+#primero{
+    border: 3px solid rgb(5, 5, 5);
+    display: inline-block;
+    background-color: rgb(236, 220, 112);
+    width: 70%;
+    height: auto;
+    margin-left: 17.5%;
+    margin-top: 40px;
+    }
+    
+    
+    #a{
+        outline-width: 15px;
+        outline-color: lawngreen;
+        outline-style:dashed;
+        display: inline-block;
+        background-color: rgb(199, 223, 207);
+        width: 35%;
+        height: auto;
+        margin: 5%;
+        padding: 15px 10px;
+        vertical-align: top;
+    }
+    #b{
+        outline: 15px double rgb(163, 8, 8);
+        display: inline-block;
+        background-color:  rgb(199, 223, 207);
+        width: 35%;
+        height: auto;
+        margin: 5%;
+        padding: 15px 10px;
+        vertical-align: top;
+    }
+    #abc1{
+        text-indent: 25px;
+        font-weight: bold;
+        font-size: larger;
+        text-decoration: line-through;  
+        letter-spacing: 8px;  
+    }
+    #a p{
+        line-height: 1.15em;
+        text-align: left;
+        font-size: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #b p{
+        line-height: 2.5em;
+        text-align: justify;
+        font-size: 16px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #a #abc1{
+        font-style:italic
+    }
+a {
+    color:black;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+a:hover {
+    color: rgb(255, 4, 4);
+    font-size: larger;
+  }
+
+  #enlace {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    background-color: black;
+    width: 100%;
+    margin-top: 7vw;
+    height: auto;
+    border: none;
+    padding: none;
+  }
+  
+  #enlace > div {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    width: 30%;
+    height: 6.5vw;
+    font-size: 2vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    font-weight: bold;
+    border-radius: 20px;
+    border: .1px solid black;
+    background-color: rgba(136, 131, 228, 0.5);
+  }
+  
+  #enlace a {
+    color: #fff700;
+    text-decoration: none;
+  }
+  
+  #enlace > div:hover {
+    background-color: rgba(211, 4, 4, 0.4);
+  }
+  
+  #enlace > div:hover a {
+    color: #0bff33;
+  }
+  /*# sourceMappingURL=estilos.css.map */

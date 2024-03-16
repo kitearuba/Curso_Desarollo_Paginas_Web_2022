@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 3vw;
+}
+
+body .parallax-completo {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/teoria18/image/paisaje1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* fondo queda anclado */
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .parallax-completo .texto-completo {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  width: 15%;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+}
+
+body .parallax-completo .texto-completo h2 {
+  font-size: 4vw;
+  font-weight: bold;
+}
+
+body .centrar {
+  width: 90%;
+  overflow: hidden;
+}
+
+body .centrar h2 {
+  text-align: center;
+  padding: 15px;
+  font-size: 3vw;
+}
+
+body .centrar h2 p {
+  padding: 1.8px;
+  font-size: 12vw;
+  padding-bottom: 40px;
+}
+
+body .parallax-child {
+  height: 500px;
+  background-image: url(/teoria18/image/paisaje2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* fondo queda anclado */
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .parallax-child h2 {
+  font-size: 4vw;
+  font-weight: bold;
+  padding: 20px;
+  color: black;
+  border-radius: 12px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+body .parallax-child2 {
+  height: 500px;
+  background-image: url(/teoria18/image/paisaje3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* fondo queda anclado */
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .parallax-child2 h2 {
+  font-size: 4vw;
+  font-weight: bold;
+  padding: 20px;
+  color: black;
+  border-radius: 12px;
+  background-color: rgba(240, 152, 232, 0.5);
+}
+
+body .parallax-child3 {
+  height: 500px;
+  background-image: url(/teoria18/image/paisaje4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* fondo queda anclado */
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .parallax-child3 h2 {
+  font-size: 4vw;
+  font-weight: bold;
+  padding: 20px;
+  color: black;
+  border-radius: 12px;
+  background-color: rgba(155, 238, 38, 0.5);
+}
+
+body .foot {
+  width: 100%;
+  padding: 40px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding-left: 0%;
+}
+/*# sourceMappingURL=estilos.css.map */

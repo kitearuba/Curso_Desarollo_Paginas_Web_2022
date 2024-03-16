@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+div:first-child{
+    display: inline-block;
+    width: 15%;
+    height: 50px;
+    background-color: chartreuse;
+    border: 5px solid black;
+    transition: all 2s ease;
+}
+div:nth-child(2){
+    display: inline-block;
+    width: 15%;
+    height: 50px;
+    background-color: chartreuse;
+    border: 5px solid black;
+    transition: all 2s;
+
+    animation-name: mi_animacion;
+    animation-duration: 5s;
+    animation-fill-mode: forward ;
+}
+
+@keyframes mi_animacion{
+    0%{
+        margin-left:0px;
+    }
+    50%{
+        margin-top: 200px;
+    }
+    100%{
+        margin-left:500px;
+        border-radius: 50%;
+    }
+}
+
+div:first-child:hover{
+    width: 25%;
+    background-color: brown;
+}

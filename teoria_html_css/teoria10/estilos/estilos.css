@@ -1,0 +1,49 @@
+h1 {
+  border: 1px solid black;
+  background-color: aquamarine;
+  color: hotpink;
+  font-size: 50px;
+  text-align: center;
+}
+
+section {
+  border: 1px solid black;
+  background-color: chocolate;
+  height: 700px;
+}
+
+section div {
+  display: inline-block;
+  width: 20%;
+  height: 200px;
+  border: 1px solid black;
+  background-color: #d21e9f;
+  margin: 5%;
+}
+
+section div div:first-child {
+  display: block;
+  background-color: #3cd21e;
+  width: 90%;
+  height: 50px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+section div div:first-child h2 {
+  color: crimson;
+}
+
+section div div:first-child h2:hover {
+  color: darkblue;
+}
+
+section div div:nth-child(2) {
+  display: block;
+  background-color: #1e84d2;
+  width: 90%;
+  height: 50px;
+  border: 1px solid black;
+  margin: 10px;
+}
+/*# sourceMappingURL=estilos.css.map */

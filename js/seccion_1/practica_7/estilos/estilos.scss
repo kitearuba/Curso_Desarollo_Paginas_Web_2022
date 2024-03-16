@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-image: url(/js/seccion_1/practica_7/image/bizcuit.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    color: white;
+
+    #pri{
+        display: inline-flex;  
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        background-color: rgba(127, 255, 212, 0.775);
+        color: blue;
+        font-size: 60px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: normal;
+        margin-top:8vw ;
+        border:.5px solid black;
+        border-radius: 2vw;
+        padding: 1vw;
+
+    }
+    div{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(127, 255, 212, 0.775);
+        width:50vw;
+        color: white;
+        font-size: 3.5vw;
+        border:.5px solid black;
+        border-radius: 2vw;
+        margin-top: 2vw;
+        padding: 1vw;
+        
+    }
+    #cua{
+        font-weight: bold;
+    }
+    #quin{
+        background-color: rgba(127, 255, 212, 0.775);
+        width: 15vw;
+        border:.5px solid black;
+        border-radius: 2vw;
+        margin-top: 2vw;
+        padding: 1vw;
+        font-size: 5vw;
+    }
+}

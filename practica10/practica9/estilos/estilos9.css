@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #464747;
+  background-image: url(/practica10/practica9/image/background.png);
+  background-repeat: repeat;
+}
+
+body > div {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+}
+
+body > div > div {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+  margin: 3vw;
+}
+
+body > div:first-child {
+  margin-top: 4vw;
+}
+
+body > div:first-child > div:first-child {
+  background-image: radial-gradient(yellow, blue, red);
+}
+
+body > div:first-child > div:nth-child(2) {
+  background-image: radial-gradient(at bottom left, yellow, red, pink, green);
+}
+
+body > div:nth-child(2) > div:first-child {
+  background-image: radial-gradient(red, black 5%, grey 90%);
+}
+
+body > div:nth-child(2) > div:nth-child(2) {
+  background-image: radial-gradient(at center left, yellow, red, pink, green 65%);
+}
+
+body #enlace {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background-color: black;
+  width: 100%;
+  margin-top: 7vw;
+  height: auto;
+  border: none;
+  padding: none;
+}
+
+body #enlace > div {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 30%;
+  height: 6.5vw;
+  font-size: 3vw;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+  font-weight: bold;
+  border-radius: 20px;
+  border: .1px solid black;
+  background-color: rgba(136, 131, 228, 0.5);
+}
+
+body #enlace a {
+  color: #fff700;
+  text-decoration: none;
+}
+
+body #enlace > div:hover {
+  background-color: rgba(211, 4, 4, 0.4);
+}
+
+body #enlace > div:hover a {
+  color: #0bff33;
+}
+/*# sourceMappingURL=estilos9.css.map */

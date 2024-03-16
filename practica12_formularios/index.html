@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es-es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/practica12_formularios/estilos/estilos.css">
+    <title>Formulario Gym</title>
+</head>
+<body>
+        <div class="testbox">
+          <form action="/">
+            <div class="banner">
+              <h1>Formulario de Inscripcion</h1>
+            </div>
+            <p class="top-info">Te gustaria unirte al gimnaseo? Comienza llenando el formulario de inscripcion. Te contactaremos pronto, cuando tu tarjeta de membrecia este lista.</p>
+            <div class="item">
+              <p>Nombre<span class="required">*</span></p>
+              <div class="name-item">
+                <input type="text" name="name" placeholder="Primer Nombre" required/>
+                <input type="text" name="name" placeholder="Apellido" required/>
+              </div>
+            </div>
+            <div class="question">
+              <p>Genero<span class="required">*</span></p>
+              <div class="question-answer">
+                <label><input type="radio" value="none" name="gender" required/> <span>Masculino</span></label>
+                <label><input type="radio" value="none" name="gender" required/> <span>Femenino</span></label>
+                <label><input type="radio" value="none" name="gender" required/> <span>Otro</span></label>
+              </div>
+            </div>
+            <div class="item">
+              <p>Peso Actual (Kg)<span class="required">*</span></p>
+              <input type="text" name="name"/>
+            </div>
+            <div class="item">
+              <p>Peso Deseado (Kg)<span class="required">*</span></p>
+              <input type="text" name="name" required/>
+            </div>
+            <div class="item">
+              <p>Altura<span class="required">*</span></p>
+              <input type="text" name="name" required/>
+            </div>
+            <div class="item">
+              <p>IMC<span class="required">*</span></p>
+              <input type="text" name="name" required/>
+            </div>
+            <div class="item">
+              <p>Direcion<span class="required">*</span></p>
+              <input type="text" name="name" placeholder="direcion" required/>
+              <div class="city-item">
+                <input type="text" name="name" placeholder="Ciudad" required/>
+                <input type="text" name="name" placeholder="Region" required/>
+                <input type="text" name="name" placeholder="Codigo Postal" required/>
+                <select>
+                  <option value="">Pais</option>
+                  <option value="1">España</option>
+                  <option value="2">Francia</option>
+                  <option value="3">Reino Unido</option>
+                  <option value="4">Italia</option>
+                  <option value="5">Paises Bajos</option>
+                </select>
+              </div>
+            </div>
+            <div class="item">
+              <p>Email<span class="required">*</span></p>
+              <input type="text" name="name" required/>
+            </div>
+            <div class="item">
+              <p>Telefono</p>
+              <input type="text" name="name"/>
+            </div>
+            <div class="question">
+              <p>Necesita Entrenador Personal?<span class="required">*</span></p>
+              <div class="question-answer">
+                <label><input type="radio" value="none" name="personal-trainer" required/> <span>Si</span></label>
+                <label><input type="radio" value="none" name="personal-trainer" required/> <span>No</span></label>
+              </div>
+            </div>
+            <div class="question">
+              <p>Alguna vez estaba inscrito en un gimnaseo?<span class="required">*</span></p>
+              <div class="question-answer">
+                <label><input type="radio" value="none" name="gym-before" required/> <span>Si</span></label>
+                <label><input type="radio" value="none" name="gym-before" required/> <span>No</span></label>
+              </div>
+            </div>
+            <div class="question">
+              <p>Tipo de Membrecia<span class="required">*</span></p>
+              <div class="question-answer">
+                <label><input type="radio" value="none" name="membership" required/> <span>Regular</span></label>
+                <label><input type="radio" value="none" name="membership" required/> <span>Pro</span></label>
+                <label><input type="radio" value="none" name="membership" required/> <span>VIP</span></label>
+              </div>
+            </div>
+            <div class="btn-block">
+              <button type="submit" href="/">Enviar</button>
+            </div>
+          </form>
+        </div>
+        <footer id="enlace">
+          <div><a href="/index.html">MAIN MENU</a></div>
+      </footer>
+      </body>
+</html>

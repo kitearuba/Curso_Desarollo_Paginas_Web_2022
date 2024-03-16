@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(70, 71, 71);
+    background-image: url(/practica10/practica3/image/background.jpg);
+    background-repeat: repeat;
+
+    >div{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width:80%;
+
+        >div{
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width:300px;
+            height: 200px;
+            border-radius: 20px;
+            margin: 3vw;
+        }
+    }
+    >div:first-child{
+        margin-top: 4vw;
+        
+        >div:first-child{
+            background-color: pink;
+            box-shadow: green 20px 20px;
+        }
+        >div:nth-child(2){
+            background-color: plum; 
+            box-shadow:  -30px 30px 10px blue;       
+        }
+    }
+    >div:nth-child(2){
+        
+        >div:first-child{
+            background-color: aquamarine;
+            box-shadow: -20px -20px 10px orange; 
+        }
+        >div:first-child:hover{
+            box-shadow: 20px -20px 10px red; 
+        }
+        >div:nth-child(2){
+            background-color: rgb(87, 206, 166);
+            box-shadow:  -30px 30px 5px blue;  
+        }
+        >div:nth-child(2):hover{
+            background-color: blue;
+        }
+    }
+    #enlace{
+        display: inline-flex;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+        background-color: black;
+        width: 100%;
+        margin-top: 7vw;
+        height:auto;
+        border: none;
+        padding: none;
+
+        >div{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 30%;
+        height: 6.5vw;
+        font-size: 3vw;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+        font-weight: bold;
+        border-radius: 20px;
+        border: .1px solid black;
+        background-color: rgba(136, 131, 228, 0.5);
+        }
+
+        a{
+            color:rgb(255, 247, 0);
+            text-decoration: none;
+        }
+
+        >div:hover{
+                background-color: rgba(211, 4, 4, 0.4);
+               
+                a{
+                    color:rgb(11, 255, 51);
+                }
+        }
+    }
+}

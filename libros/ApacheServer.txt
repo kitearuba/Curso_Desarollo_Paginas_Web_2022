@@ -1,0 +1,3 @@
+https://weblinus.com/instalacion-y-configuracion-de-apache-y-el-firewall-ufw/  apache server
+
+https://linuxhint.com/install_apache_web_server_ubuntu/     web config appache

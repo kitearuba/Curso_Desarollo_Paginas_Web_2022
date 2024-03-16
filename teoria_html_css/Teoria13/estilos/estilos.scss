@@ -1,0 +1,26 @@
+*{
+    margin:0px;
+}
+section{
+    display:flex;
+    justify-content: space-evenly;/* horizontal */
+    align-items: center;/* vertical */ 
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: burlywood;
+    border: 1px solid black;
+    width: 90%;
+    height: 800px;
+    margin-left: 5%;
+    margin-top: 100px;
+    >div{
+        display: inline-flex;
+        justify-content: space-evenly;/* horizontal */
+        align-items: center;/* vertical */
+        background-color: chartreuse;
+        width: 30%;
+        height: 150px;
+        margin-top: 10px;
+        font-size: 2vw;
+    }
+}

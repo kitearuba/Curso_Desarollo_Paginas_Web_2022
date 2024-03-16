@@ -1,0 +1,136 @@
+<!DOCTYPE html> <!-- Version hTML utilizada - HTML 5 -->
+<html lang="en">  <!-- Inicio de pagina
+ -->
+   <!--  Cabecera de la web -->
+    <head>
+        <!-- Generica de la web (autor, region, keywords, ...) -->
+        <meta charset="UTF-8">  <!-- Sistema de codificacion -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title> <!-- Nombre de la web en la pestaña -->
+
+        <style>
+                p{
+                    color: darkblue;
+                    background-color: antiquewhite;
+                    font-size: 28px;
+                }
+                /* afecta el color de la etiquetacon el indicador ´p1 */
+                #p1{background-color: greenyellow;}
+
+                #p2{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; background-color: hotpink;}
+                
+                .contorno{
+                    border: 2px solid blue;
+                }
+
+                #foto1{
+                    border: 2px solid rgb(10, 10, 10)
+                    ;display: inline-block;
+                    width: 200px;
+                    height: 200px;
+                }
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+                #foto2{
+                    border: 2px solid rgb(5, 5, 5)
+                    ;display: inline-block;
+                    width: 400px;
+                    height: 400px;
+                }
+                #video{
+                    border: 3px solid rgb(0, 47, 255);
+                    display: inline-block;
+                    width: 50%;
+                    height: 500px;
+                    margin-left: 20%;
+                    margin-top: 40px;
+                }
+                #productos{
+                    border: 3px solid rgb(255, 0, 0);
+                    display: inline-block;
+                    background-color: lawngreen;
+                    width: 80%;
+                    height: 500px;
+                    margin-left: 10%;
+                    margin-top: 40px;
+                    
+                }
+                h1{
+                    border: 3px solid lightsalmon;
+                    display: inline-block;
+                    width: 30%;
+                    height: 118px;
+                    margin-left: 2%;
+                }
+                #pp{
+                    border: 3px solid #70331a;
+                    display: inline-block;
+                    background-color: gold;
+                    border: 2px solid red; 
+                    text-align: center;
+                    width: 30%;
+                    height: 50px;
+                }
+                #link{
+                    border: 3px solid #064614;
+                    display: inline-block;
+                    background-color: rgb(230, 230, 230);
+                    border: 2px solid rgb(85, 47, 146); 
+                    text-align: center;
+                    width: 20%;
+                    height: 25px;
+                }
+                
+
+
+
+        </style> 
+    </head>
+
+    <!-- Cuerpo o contenido de la pagina -->
+    <body>
+        <!-- Etiqueta encabezado (h1....h6) -->
+        <h1 id="pp"> Repaso de etiquetas HTML</h1>
+        
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quasi numquam nostrum est molestias! Molestiae nostrum ipsam dicta aliquam officia ipsa? Eligendi autem reiciendis sint itaque quisquam! Vero cumque totam, ipsa optio nam, dolorum quos sint eveniet quaerat dignissimos perferendis et neque ex nihil, culpa placeat labore repudiandae possimus saepe.</p>
+        
+        <p id="p1"  class="contorno">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quasi numquam nostrum est molestias! Molestiae nostrum ipsam dicta aliquam officia ipsa? Eligendi autem reiciendis sint itaque quisquam! Vero cumque totam, ipsa optio nam, dolorum quos sint eveniet quaerat dignissimos perferendis et neque ex nihil, culpa placeat labore repudiandae possimus saepe.</p>
+
+        <p id="p2" class="contorno" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quasi numquam nostrum est molestias! Molestiae nostrum ipsam dicta aliquam officia ipsa? Eligendi autem reiciendis sint itaque quisquam! Vero cumque totam, ipsa optio nam, dolorum quos sint eveniet quaerat dignissimos perferendis et neque ex nihil, culpa placeat labore repudiandae possimus saepe.</p>
+
+        <!-- /* -src-> es la ruta donde se encuentra la imagen */
+        /* -alt-> mensaje informativo para accesibiidad */ -->
+        <div id="foto1">
+            <img src="/image/image1.jfif" alt="Koala">
+        </div>
+        <div id="foto2">
+            <img src="/image/image1.jfif" alt="Koala">
+            </div>
+        <div id="video">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Inn7KnFHx0g?start=4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div id="productos">
+            <h1>1</h1>
+            <h1>2</h1>
+            <h1>3</h1>
+            <h1>4</h1>
+            <h1>5</h1>
+            <h1>6</h1>
+            <h1>7</h1>
+            <h1>8</h1>
+            <h1>9</h1>
+            
+        </div>
+             
+        <div id="link" style="margin-left: 20%; margin-top: 50px;"><a href="https://stucom.com">Ir a Stucom</a></div>
+        <div id="link"><a href="pagina1.html">Ir a Pagina1</a></div>
+        <div id="link"><a href="#p1">Ir a Inicio</a></div>
+        
+    
+
+        
+    </body>
+</html>
